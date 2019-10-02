@@ -42,7 +42,7 @@ To order a Gateway Appliance with the Bring Your Own Appliance (BYOA) option, pe
 
 4. Choose **Other** from the **Gateway Vendor** section.
 
-  If you do not see the **No OS** option, contact IBM Support for details on enabling it for your account.
+  If you do not see the **Other** option, contact IBM Support for details on enabling it for your account.
   {: note}
 
   <img src="images/byog-1.png" alt="drawing" style="width: 600px;"/>
@@ -74,7 +74,7 @@ To order a Gateway Appliance with the Bring Your Own Appliance (BYOA) option, pe
 
 10. Review your selections, check that you have read the Third Party Service Agreements, then click **Create**. The form verifies the order automatically.
 
-After your order is approved, the provisioning of your IBM Cloud No OS Gateway starts automatically. When the provisioning process completes, the new Gateway appears in the Gateway Appliances list page. Click the Gateway name to open the Gateway Details page. You will find the IP addresses, login username, and password for the device.
+After your order is approved, the provisioning of your IBM Cloud Gateway starts automatically. When the provisioning process completes, the new Gateway appears in the Gateway Appliances list page. Click the Gateway name to open the Gateway Details page. You will find the IP addresses, login username, and password for the device.
 
   <img src="images/byog-3.png" alt="drawing" style="width: 600px;"/>
 
