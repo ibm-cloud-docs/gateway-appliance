@@ -19,6 +19,7 @@ IBM Cloud Gateway Appliance
     access-gateway-appliances.md
     access-gateway-details.md
     rename-gateway.md
+    cancel-gateway.md
     manage-vlans.md
     {: .navgroup-end}
 
