@@ -20,7 +20,7 @@ subcollection: gateway-appliance
 {:note: .note}
 {:important: .important}
 
-# Cancelling a Gateway Appliance
+# Canceling a Gateway Appliance
 {: #cancel-gateway-appliance}
 
 You can cancel your Gateway Appliance at any time. To do so, perform the following procedure:
