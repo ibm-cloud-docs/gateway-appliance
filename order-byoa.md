@@ -23,7 +23,7 @@ subcollection: gateway-appliance
 # Ordering a Bring Your Own Gateway Appliance
 {: #order-byoa}
 
-{{site.data.keyword.vsrx_full}} Gateway 1G and 10G offerings include the Virtual Router Appliance and Juniper vSRX. You can also deploy a third Gateway solution with no operating system installed. This solution provides the same 1G and 10G hardware, as well as the same networking, but provides you the flexibility to install a custom operating system and Gateway software stack (such as F5 or Palo Alto).
+IBM Cloud™ Gateway 1G and 10G offerings include the Virtual Router Appliance and Juniper vSRX. You can also deploy a third Gateway solution with no operating system installed. This solution provides the same 1G and 10G hardware, as well as the same networking, but provides you the flexibility to install a custom operating system and Gateway software stack (such as F5 or Palo Alto).
 
 You can use the information in this topic to order a Gateway Appliance with the Bring Your Own Appliance (BYOA) option.
 
