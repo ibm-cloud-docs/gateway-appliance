@@ -11,7 +11,7 @@ subcollection: gateway-appliance
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:new_window: target="_blank_"}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
@@ -31,7 +31,7 @@ You can cancel your Gateway Appliance at any time. To do so, perform the followi
 4. Click the Gateway Appliance name to open the Gateway Appliance Details page.
 5. From the Hardware section, click the name of the hardware member to open the server details screen.
 
-  <img src="images/cancel-gateway.png" alt="drawing" style="width: 400px;"/>
+  ![Cancel gateway](images/cancel-gateway.png "Cancel gateway")
 
 5. Select **Actions > Cancel device** and follow the prompts to cancel the Gateway Appliance.
 
@@ -42,7 +42,7 @@ Once you cancel the Gateway Appliance, the server(s) will be reclaimed at the ne
 
 You can verify if your Gateway Appliance is in process of being cancelled by viewing the Gateway Appliance Details page. Gateways in the process of being cancelled will show as **Cancel pending**.
 
-  <img src="images/cancel-pending.png" alt="drawing" style="width: 500px;"/>
+  ![Cancel pending](images/cancel-pending.png "Cancel pending")
 
 If necessary, you can perform the process quicker by opening a ticket with IBM support and requesting the Gateway Appliance be reclaimed immediately. This process can take 24 to 48 hours.
 {: tip}

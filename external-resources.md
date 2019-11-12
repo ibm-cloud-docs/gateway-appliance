@@ -12,7 +12,7 @@ subcollection: gateway-appliance
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:new_window: target="_blank_"}
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:screen: .screen}
@@ -20,7 +20,7 @@ subcollection: gateway-appliance
 {:download: .download}
 {:note: .note}
 {:important: .important}
-{:external: target="_blank" .external}
+{:external: target="_blank_" .external}
 
 # Blogs and other links
 {: #other-resources-for-ibm-gateway-appliances}
