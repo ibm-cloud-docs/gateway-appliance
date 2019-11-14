@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2019-09-25"
+lastupdated: "2019-11-13"
 
 keywords: order, gateway, appliance, virtual router appliance, vra
 
@@ -23,7 +23,8 @@ subcollection: gateway-appliance
 # Ordering an IBM Cloud Virtual Router Appliance
 {: #order-vra}
 
-To order a VRA, perform the following procedure:
+You can order an {{site.data.keyword.cloud}} Virtual Router Appliance (VRA) using the instructions here.
+{: shortdesc}
 
 1. From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Classic Infrastructure**.

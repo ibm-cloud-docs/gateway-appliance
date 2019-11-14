@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-10-22"
+lastupdated: "2019-11-13"
 
 keywords: about, gateway, appliance, firewall, vpn, nat, routing, vlan
 
@@ -23,7 +23,10 @@ subcollection: gateway-appliance
 # About IBM Cloud Gateway Appliance
 {: #about}
 
-{{site.data.keyword.cloud}} Gateway Appliances allow you to selectively route private and public network traffic through a full-featured enterprise level firewall powered by the software features of VyOS, JunOS or any other operating system (BYOA) you choose, such as full routing stacks, QoS and traffic sharing, policy-based routing, and VPN. The appliances provide performance, ease of configuration and maintenance advantages with the simplicity of running on a bare metal server. The hardware is sized to handle the routing/security load for multiple VLANs and can be ordered with redundant network links and redundant RAID arrays. All appliance features are customer-managed.
+{{site.data.keyword.cloud}} Gateway Appliances allow you to selectively route private and public network traffic through a full-featured enterprise level firewall powered by the software features of VyOS, JunOS or any other operating system (BYOA) you choose, such as full routing stacks, QoS and traffic sharing, policy-based routing, and VPN.
+{: shortdesc}
+
+The appliances provide performance, ease of configuration and maintenance advantages with the simplicity of running on a bare metal server. The hardware is sized to handle the routing/security load for multiple VLANs and can be ordered with redundant network links and redundant RAID arrays. All appliance features are customer-managed.
 
 Both Juniper vSRX Standard and Virtual Router Appliance (VRA) are offered in two different modes: standalone or High Availability (HA) cluster.
 

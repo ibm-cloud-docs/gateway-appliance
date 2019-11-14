@@ -23,7 +23,8 @@ subcollection: gateway-appliance
 # Ordering an IBM Cloud Juniper vSRX
 {: #order-vsrx}
 
-You can order your Gateway Appliance, using one of these methods:
+You can order an {{site.data.keyword.cloud}} Juniper vSRX in one of two ways.
+{: shortdesc}
 
 ## Ordering with a linked account
 {: #ordering-with-a-linked-account}

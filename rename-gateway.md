@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-11-10"
+lastupdated: "2019-11-13"
 
 keywords: rename, appliance
 
@@ -23,7 +23,8 @@ subcollection: gateway-appliance
 # Renaming a Gateway Appliance
 {: #renaming-a-gateway-appliance}
 
-Network Gateways are given unique names that assist users in their identification. At any time, a Gateway name may be changed. It is recommended that you use a consistent naming convention to more easily identify Gateways.
+Network Gateways are given unique names that assist users in their identification. At any time, a Gateway name may be changed using the instructions here. It is recommended that you use a consistent naming convention to more easily identify Gateways.
+{: shortdesc}
 
 Perform the following procedure to rename a Network Gateway:
 

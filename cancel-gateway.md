@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-10-23"
+lastupdated: "2019-11-13"
 
 keywords: view, appliances, portal
 
@@ -23,7 +23,8 @@ subcollection: gateway-appliance
 # Canceling a Gateway Appliance
 {: #cancel-gateway-appliance}
 
-You can cancel your Gateway Appliance at any time. To do so, perform the following procedure:
+You can cancel your Gateway Appliance at any time by following the instructions here.
+{: shortdesc}
 
 1. From your browser, open the [IBM Cloud catalog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){:new_window} and log into your account.
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Classic Infrastructure**.

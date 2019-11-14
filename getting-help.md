@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017,2018
-lastupdated: "2018-11-10"
+lastupdated: "2019-11-13"
 
 keywords: help, support, contact, troubleshooting
 
@@ -24,6 +24,7 @@ subcollection: gateway-appliance
 {: #getting-help}
 
 If you have problems or questions when using IBM Cloud Gateway Appliance (VRA or vSRX), you can get help by searching for information or by asking questions through one of the forums listed below. You can also [contact support](/docs/get-support?topic=get-support-getting-customer-support).
+{: shortdesc}
 
 When using the forums to ask a question, tag your question so that it is seen by the IBM Cloud development teams.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2018-11-10"
+lastupdated: "2019-11-13"
 
 keywords: view, appliance, details, portal
 
@@ -24,6 +24,7 @@ subcollection: gateway-appliance
 {: #viewing-gateway-appliance-details}
 
 Network Gateways are used to control network traffic on a VLAN that is regularly controlled by a router. Within the Gateway Appliance Details screen on the IBM Cloud console, you can associate, disassociate, route and bypass VLANs associated with a Network Gateway.
+{: shortdesc}
 
 Perform the following procedure to access the Gateway Details screen.
 
