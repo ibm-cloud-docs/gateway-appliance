@@ -45,5 +45,5 @@ You can verify if your Gateway Appliance is in process of being cancelled by vie
 
   ![Cancel pending](images/cancel-pending.png "Cancel pending")
 
-If necessary, you can perform the process quicker by opening a ticket with IBM support and requesting the Gateway Appliance be reclaimed immediately. This process can take 24 to 48 hours.
+If necessary, you can perform the process quicker by opening a case with IBM support and requesting the Gateway Appliance be reclaimed immediately. This process can take 24 to 48 hours.
 {: tip}
