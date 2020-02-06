@@ -19,9 +19,13 @@ subcollection: gateway-appliance
 {:download: .download}
 {:note: .note}
 {:important: .important}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Canceling a Gateway Appliance
 {: #cancel-gateway-appliance}
+{: help}
+{: support}
 
 You can cancel your Gateway Appliance at any time by following the instructions here.
 {: shortdesc}

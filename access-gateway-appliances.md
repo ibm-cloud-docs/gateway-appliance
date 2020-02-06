@@ -19,9 +19,13 @@ subcollection: gateway-appliance
 {:download: .download}
 {:note: .note}
 {:important: .important}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Viewing all Gateway Appliances
 {: #viewing-all-gateway-appliances}
+{: help}
+{: support}
 
 The Gateway Appliances screen in the {{site.data.keyword.cloud}} infrastructure IBM Cloud console is where you can display and access all Network Gateway Appliances which includes the IBM Virtual Router Appliances and IBM Juniper vSRX Standard.  
 {: shortdesc}

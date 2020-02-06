@@ -19,9 +19,13 @@ subcollection: gateway-appliance
 {:download: .download}
 {:note: .note}
 {:important: .important}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
 # Renaming a Gateway Appliance
 {: #renaming-a-gateway-appliance}
+{: help}
+{: support}
 
 Network Gateways are given unique names that assist users in their identification. At any time, a Gateway name may be changed using the instructions here. It is recommended that you use a consistent naming convention to more easily identify Gateways.
 {: shortdesc}
