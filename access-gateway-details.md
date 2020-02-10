@@ -32,7 +32,7 @@ Network Gateways are used to control network traffic on a VLAN that is regularly
 
 Perform the following procedure to access the Gateway Details screen.
 
-1. [Access the Gateway Appliances screen](/docs/infrastructure/gateway-appliance?topic=gateway-appliance-viewing-all-gateway-appliances#viewing-all-gateway-appliances) in the IBM Cloud console.
+1. [Access the Gateway Appliances screen](/docs/gateway-appliance?topic=gateway-appliance-viewing-all-gateway-appliances#viewing-all-gateway-appliances) in the IBM Cloud console.
 2. Click the Gateway Appliance Name for the desired Network Gateway to access the Gateway Appliance Details screen.
 
 Interactions may be taken on multiple VLANs at any given time using the Bulk Actions feature.

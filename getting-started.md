@@ -32,7 +32,7 @@ IBM Cloud Gateway Appliances are devices that give you enhanced control over net
 To get started, first determine which Gateway Appliance is right for you. The following table provides a comparison between the appliance options.
 
 
-|        | [Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance) | [Juniper vSRX](/docs/infrastructure/vsrx) |[Bring your own Appliance](/docs/infrastructure/gateway-appliance?topic=gateway-appliance-order-byoa) |
+|        | [Virtual Router Appliance](/docs/virtual-router-appliance) | [Juniper vSRX](/docs/vsrx) |[Bring your own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa) |
 | ------- | :------: | :------: | :------: |
 |**Operating System**|Vyatta OS|Juniper vSRX|Any|
 |**IBM Cloud Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)| Limited |
@@ -56,6 +56,6 @@ To get started, first determine which Gateway Appliance is right for you. The fo
 
 To get started with Gateway Appliance, click the link for the device you've chosen below:
 
-- [Getting Started with IBM Cloud Virtual Router Appliance](/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started)
-- [Getting Started with IBM Cloud Juniper vSRX Standard](/docs/infrastructure/vsrx?topic=vsrx-getting-started)
-- [Order a Bring Your Own Appliance](/docs/infrastructure/gateway-appliance?topic=gateway-appliance-order-byoa)
+- [Getting Started with IBM Cloud Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started)
+- [Getting Started with IBM Cloud Juniper vSRX Standard](/docs/vsrx?topic=vsrx-getting-started)
+- [Order a Bring Your Own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa)

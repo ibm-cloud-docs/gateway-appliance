@@ -32,7 +32,7 @@ Network Gateways are given unique names that assist users in their identificatio
 
 Perform the following procedure to rename a Network Gateway:
 
-1. [Access the Gateway Appliance Details screen](/docs/infrastructure/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details) in the IBM Cloud console.
+1. [Access the Gateway Appliance Details screen](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details) in the IBM Cloud console.
 2. Click the **Actions** dropdown menu and select **Rename Gateway**.
 3. Enter the new Gateway Name in the **Gateway Name** field.
 4. Click **OK** to save the change.

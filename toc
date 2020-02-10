@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="gateway-appliance" category="network" audience="service" arm="3662762" href="/docs/gateway-appliance?topic=gateway-appliance-getting-started" path="infrastructure/gateway-appliance"}
+{: .toc subcollection="gateway-appliance" category="network" audience="service" arm="3662762" href="/docs/gateway-appliance?topic=gateway-appliance-getting-started" path="gateway-appliance"}
 IBM Cloud Gateway Appliance
 
     {: .navgroup id="learn"}
@@ -12,8 +12,8 @@ IBM Cloud Gateway Appliance
     {: .navgroup id="howto"}
     {: topicgroup}
     Ordering
-        [Ordering a Virtual Router Appliance](https://{DomainName}/docs/infrastructure/virtual-router-appliance?topic=virtual-router-appliance-getting-started#order-vra)
-        [Ordering a Juniper vSRX](https://{DomainName}/docs/infrastructure/vsrx?topic=vsrx-getting-started#steps-for-ordering)
+        [Ordering a Virtual Router Appliance](https://{DomainName}/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started#order-vra)
+        [Ordering a Juniper vSRX](https://{DomainName}/docs/vsrx?topic=vsrx-getting-started#steps-for-ordering)
         order-byoa.md
 
     access-gateway-appliances.md

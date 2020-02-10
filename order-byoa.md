@@ -86,7 +86,7 @@ To install an operating system on the Gateway, perform the following procedure:
 This procedure uses the IPMI interface to mount and boot to an OS image. Make sure you have the ISO image of the operating system you want to install, as well as the Gateway software image, and any required licenses.
 {: important}
 
-1. [Access the Gateway Appliances screen](/docs/infrastructure/gateway-appliance?topic=gateway-appliance-viewing-all-gateway-appliances#viewing-all-gateway-appliances) in the IBM Cloud console.
+1. [Access the Gateway Appliances screen](/docs/gateway-appliance?topic=gateway-appliance-viewing-all-gateway-appliances#viewing-all-gateway-appliances) in the IBM Cloud console.
 
 2. Click the Gateway Appliance name for BYOG appliance to access the Gateway Appliance Details screen.
 
@@ -104,7 +104,7 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
   The server should, by default, boot to the mounted image without the need for a password. Ensure no other media is mounted to the server before proceeding with this step.
   {: important}
 
-  Additional documentation on setting up a VPN connection can be found [here](/docs/infrastructure/iaas-vpn?topic=VPN-standalone-vpn-clients).
+  Additional documentation on setting up a VPN connection can be found [here](/docs/iaas-vpn?topic=VPN-standalone-vpn-clients).
   {: tip}
 
 Below is an example of an Ubuntu 18.04 ISO image that has been mounted to the Bring Your Own Appliance's IPMI web interface using the Java iKVM Viewer and Virtual Storage feature.
