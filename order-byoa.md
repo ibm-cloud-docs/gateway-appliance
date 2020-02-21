@@ -64,7 +64,7 @@ To order a Gateway Appliance with the Bring Your Own Appliance (BYOA) option, pe
 
 8. Select your RAM settings.
 
-9. Select your SSH keys, if you want to use then to authenticate access to your new Gateway.
+9. Select your SSH keys, if you want to use them to authenticate access to your new Gateway.
 
 8. From the **Storage Disks** section, choose the options that meet your storage requirements.
 
