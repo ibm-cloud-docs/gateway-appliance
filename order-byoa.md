@@ -31,7 +31,7 @@ You can use the information in this topic to order a Gateway Appliance with the 
 You will need the software license(s) and images for your chosen operating system and Gateway software solution.
 {: note}
 
-## Ordering with a Linked Account
+## Ordering with a linked account
 
 To order a Gateway Appliance with the Bring Your Own Appliance (BYOA) option, perform the following procedure:
 
@@ -79,7 +79,7 @@ After your order is approved, the provisioning of your IBM Cloud Gateway starts 
 
   ![Confirm setup](images/byog-3.png "Confirm setup")
 
-## Installing an Operating System on the Gateway
+## Installing an operating system on the gateway
 
 To install an operating system on the Gateway, perform the following procedure:
 

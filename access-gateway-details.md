@@ -22,7 +22,7 @@ subcollection: gateway-appliance
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Viewing Gateway Appliance Details
+# Viewing Gateway Appliance details
 {: #viewing-gateway-appliance-details}
 {: help}
 {: support}

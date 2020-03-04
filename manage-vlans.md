@@ -39,7 +39,7 @@ VLANs may be associated to only one Gateway at a time and must not have a firewa
 
 After associating a VLAN to the Gateway Appliance, it appears in the Associated VLANs section of the Gateway Appliance Details screen. From this section, the VLAN may be routed to the Gateway or may be disassociated from the Gateway. Additional eligible VLANs may be associated to a Gateway Appliance at any time by repeating the steps above.
 
-## Route an Associated VLAN
+## Route an associated VLAN
 {: #route-an-associated-vlan}
 
 Associated VLANs are linked to a Gateway Appliance, but traffic in and out of the VLAN does not hit the Gateway until the VLAN has been routed. After an associated VLAN has been routed, all front and back-end traffic is routed through the Gateway Appliance as opposed to customer routers.
@@ -53,7 +53,7 @@ Perform the following procedure to route an associated VLAN:
 
 After routing a VLAN, all front-end and back-end traffic moves from the customer routers to the Network Gateway. Additional controls related to traffic and the Gateway Appliance itself may be taken by accessing the Gateway's management tool. Routing through the Network Gateway may be discontinued at any time by [bypassing the Gateway Appliance](#bypass-gateway-appliance-routing-for-a-vlan).
 
-## Bypass Gateway Appliance Routing for a VLAN
+## Bypass Gateway Appliance routing for a VLAN
 {: #bypass-gateway-appliance-routing-for-a-vlan}
 
 After a VLAN has been routed, all front and back-end traffic travels through the Network Gateway. At any time, the Gateway Appliance may be bypassed so that traffic will return to the front and back-end customer routers (FCR and BCR).

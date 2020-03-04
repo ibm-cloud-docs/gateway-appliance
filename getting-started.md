@@ -20,7 +20,7 @@ subcollection: gateway-appliance
 {:important: .important}
 {:note: .note}
 
-# Getting Started with IBM Cloud Gateway Appliance
+# Getting started with IBM Cloud Gateway Appliance
 {: #getting-started}
 
 IBM Cloud Gateway Appliances are devices that give you enhanced control over network traffic, accelerate your network’s performance, and improve your network security. You can manage your physical and virtual networks for routing multiple VLANs, for firewalls, VPN, traffic shaping and more.

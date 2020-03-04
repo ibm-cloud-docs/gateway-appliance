@@ -42,7 +42,7 @@ Connect your on-site data center or office to the IBM Cloud using VPN tunneling 
 {: #network-address-translation-nat-}
 With IBM Gateway Appliances, you can provision application and database servers without public network interfaces while still allowing your servers to access the Internet using Source NAT. You can also hide your servers behind the gateway device with Destination NAT for enhanced security.
 
-## Enterprise-grade Routing
+## Enterprise-grade routing
 {: #enterprise-grade-routing}
 For multi-tiered applications on different isolated networks, the appliances enable you to build connectivity between these networks with greater flexibility. You can set up dynamic routing using BGP, which allows you to announce your own public IP space to the IBM Cloud routers. BGP will also offer more flexibility for custom private network configurations when using a mix of tunnels and direct link solutions.
 
