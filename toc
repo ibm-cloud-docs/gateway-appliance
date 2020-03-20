@@ -1,12 +1,13 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="gateway-appliance" category="network" audience="service" arm="3662762" href="/docs/gateway-appliance?topic=gateway-appliance-getting-started" path="gateway-appliance"}
+{: .toc subcollection="gateway-appliance" category="network" audience="service" href="/docs/gateway-appliance?topic=gateway-appliance-getting-started" console-page="/provision/gateway" product-page="https://www.ibm.com/cloud/network-appliances" path="gateway-appliance"}
 IBM Cloud Gateway Appliance
 
     {: .navgroup id="learn"}
     getting-started.md
     about.md
+    [What are computer networking solutions?](https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
