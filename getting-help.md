@@ -23,10 +23,7 @@ subcollection: gateway-appliance
 # Getting help and support
 {: #getting-help}
 
-If you have problems or questions when using IBM Cloud Gateway Appliance (VRA or vSRX), you can get help by searching for information or by asking questions through one of the forums listed below. You can also [contact support](/docs/get-support?topic=get-support-getting-customer-support).
-{: shortdesc}
+If you have problems or questions when using IBM Cloud Gateway Appliance (VRA or vSRX), you can search for information or ask questions by using [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external}. Post your question then and tag it with "vsrx" or "vra" and "ibm-cloud".
+{:shortdesc}
 
-When using the forums to ask a question, tag your question so that it is seen by the IBM Cloud development teams.
-
-* If you have technical questions about IBM Cloud Gateway Appliance, post your question on [Stack Overflow](https://stackoverflow.com/search?q=ibm-cloud) and tag your question with "vsrx" or "vra" and "ibm-cloud".
-* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/smartspace/bluemix/index.html) forum. Include the "vsrx" or "vra" and "ibm-cloud" tags.
+You can also open a support case in the [{{site.data.keyword.cloud_notm}} console (https://cloud.ibm.com/unifiedsupport/cases/add){: external}.
