@@ -25,5 +25,3 @@ subcollection: gateway-appliance
 
 If you have problems or questions when using IBM Cloud Gateway Appliance (VRA or vSRX), you can search for information or ask questions by using [Stack Overflow](https://stackoverflow.com/search?q=dl+ibm-cloud){: external}. Post your question then and tag it with "vsrx" or "vra" and "ibm-cloud".
 {:shortdesc}
-
-You can also open a support case in the [{{site.data.keyword.cloud_notm}} console (https://cloud.ibm.com/unifiedsupport/cases/add){: external}.
