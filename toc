@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="gateway-appliance" category="network" audience="service" href="/docs/gateway-appliance?topic=gateway-appliance-getting-started" console-page="/provision/gateway" product-page="https://www.ibm.com/cloud/network-appliances" path="gateway-appliance"}
+{: .toc subcollection="gateway-appliance" category="network_classic" audience="service" href="/docs/gateway-appliance?topic=gateway-appliance-getting-started" console-page="/provision/gateway" product-page="https://www.ibm.com/cloud/network-appliances" path="gateway-appliance"}
 IBM Cloud Gateway Appliance
 
     {: .navgroup id="learn"}
