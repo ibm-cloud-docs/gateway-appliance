@@ -104,7 +104,7 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
   The server should, by default, boot to the mounted image without the need for a password. Ensure no other media is mounted to the server before proceeding with this step.
   {: important}
 
-  Additional documentation on setting up a VPN connection can be found [here](/docs/iaas-vpn?topic=VPN-standalone-vpn-clients).
+  Additional documentation on setting up a VPN connection can be found [here](/docs/iaas-vpn?topic=iaas-vpn-getting-started#getting-started).
   {: tip}
 
 Below is an example of an Ubuntu 18.04 ISO image that has been mounted to the Bring Your Own Appliance's IPMI web interface using the Java iKVM Viewer and Virtual Storage feature.
