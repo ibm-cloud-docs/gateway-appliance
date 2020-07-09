@@ -43,7 +43,7 @@ To get started, first determine which Gateway Appliance is right for you. The fo
 |**HA Option**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
 |**Manage from API & Portal**|Appliance GUI|Appliance GUI||
 |**10Gbps Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**NGFW Add-ons (IPS, AV, WF)**|No|4Q2019||
+|**NGFW Add-ons (IPS, AV, WF)**|No|![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|
 |**Cost**| Starting $219.00/month + Cost of Bare Metal Server | Starting $299.00/month + Cost of Bare Metal Server | Starting $120.00/month + Cost of Bare Metal Server |
 {: row-headers}
 {: class="comparison-table"}
