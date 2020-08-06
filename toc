@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="gateway-appliance" category="network_classic" audience="service" href="/docs/gateway-appliance?topic=gateway-appliance-getting-started" console-page="/provision/gateway" product-page="https://www.ibm.com/cloud/network-appliances" path="gateway-appliance"}
+{: .toc subcollection="gateway-appliance" category="network_classic" audience="service" href="/docs/gateway-appliance?topic=gateway-appliance-getting-started" console-page="https://cloud.ibm.com/catalog/network-gateway-appliance-group" product-page="https://www.ibm.com/cloud/network-appliances" path="gateway-appliance"}
 IBM Cloud Gateway Appliance
 
     {: .navgroup id="learn"}
@@ -14,7 +14,7 @@ IBM Cloud Gateway Appliance
     {: topicgroup}
     Ordering
         [Ordering a Virtual Router Appliance](https://{DomainName}/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started#order-vra)
-        [Ordering a Juniper vSRX](https://{DomainName}/docs/vsrx?topic=vsrx-getting-started#steps-for-ordering)
+        [Ordering a Juniper vSRX](https://{DomainName}/docs/vsrx?topic=vsrx-getting-started#ordering-with-a-linked-account)
         order-byoa.md
 
     access-gateway-appliances.md
@@ -30,5 +30,8 @@ IBM Cloud Gateway Appliance
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    [FAQs for Virtual Router Appliance](https://{DomainName}/docs/virtual-router-appliance?topic=virtual-router-appliance-faqs-for-ibm-virtual-router-appliance#faqs-for-ibm-virtual-router-appliance)
+    [Technical FAQs for Virtual Router Appliance](https://{DomainName}/docs/virtual-router-appliance?topic=virtual-router-appliance-technical-faqs-for-ibm-virtual-router-appliance#technical-faqs-for-ibm-virtual-router-appliance)
+    [Known limitations for Juniper vSRX](https://{DomainName}/docs/vsrx?topic=vsrx-known-limitations-for-ibm-cloud-juniper-vsrx)
     getting-help.md
     {: .navgroup-end}
