@@ -12,7 +12,7 @@ IBM Cloud Gateway Appliance
 
     {: .navgroup id="howto"}
     {: topicgroup}
-    Ordering
+    Order
         [Ordering a Virtual Router Appliance](https://{DomainName}/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started#order-vra)
         [Ordering a Juniper vSRX](https://{DomainName}/docs/vsrx?topic=vsrx-getting-started#ordering-with-a-linked-account)
         order-byoa.md

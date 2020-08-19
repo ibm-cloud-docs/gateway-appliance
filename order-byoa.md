@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2019-11-13"
+  years: 2018, 2020
+lastupdated: "2020-08-13"
 
-keywords: order, gateway, appliance, virtual router appliance, vra
+keywords: order, gateway, appliance
 
 subcollection: gateway-appliance
 
@@ -26,9 +26,9 @@ subcollection: gateway-appliance
  {{site.data.keyword.cloud}} Gateway 1G and 10G offerings include the Virtual Router Appliance and Juniper vSRX. You can also deploy a third gateway solution with no operating system installed. This solution provides the same 1G and 10G hardware, as well as the same networking, but provides you the flexibility to install a custom operating system and gateway software stack, such as F5 or Palo Alto.
 {: shortdesc}
 
-You can use the information in this topic to order a gateway appliance with the Bring Your Own Appliance (BYOA) option.
+Use the information in this topic to order a gateway appliance with the Bring Your Own Appliance (BYOA) option.
 
-You require the software license(s) and images for your chosen operating system and gateway software solution.
+You must have the software license(s) and images for your chosen operating system and gateway software solution.
 {: note}
 
 ## Ordering with a linked account
@@ -48,11 +48,11 @@ To order a gateway appliance with the BYOA option, perform the following procedu
 
   ![Other](images/byog-1.png "Other")
 
-5. Enter your Hostname and Domain Name information in the **Gateway Appliance** section. Ensure the default information that populates the fields is accurate, and correct it if it is not.
+5. Enter your Hostname and Domain Name information in the **Gateway Appliance** section. Ensure the default information that populates the fields is accurate, and make any necessary corrections.
 
-6. Select your desired data center location and the specific pod you want from the menu.
+6. Select a data center location and the specific pod you want from the menu.
 
-  Only pods that already have an associated VLAN display. If you want to provision your gateway appliance in a pod that isn't listed, you must create a VLAN in that pod.
+  Only pods that already have an associated VLAN show. If you want to provision your gateway appliance in a pod that isn't listed, you must create a VLAN in that pod.
   {: note}
 
   The High Availability option is selected by default.
@@ -75,7 +75,7 @@ To order a gateway appliance with the BYOA option, perform the following procedu
 
 10. Review your selections, check that you have read the Third Party Service Agreements, then click **Create**. The form verifies the order automatically.
 
-After your order is approved, the provisioning of your IBM Cloud Gateway starts automatically. When the provisioning process completes, the new gateway appears in the Gateway Appliances list page. Click the gateway name to open the Gateway Details page. You will find the IP addresses, login username, and password for the device.
+After your order is approved, the provisioning of your IBM Cloud Gateway starts automatically. When the provisioning process completes, the new gateway appears in the Gateway Appliances list page. Click the gateway name to open the Gateway Details page that shows the IP addresses, login username, and password for the device.
 
   ![Confirm setup](images/byog-3.png "Confirm setup")
 
@@ -96,17 +96,17 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
 
   ![Management details](images/byog-5.png "Management details")
 
-3. Mount and boot your operating system image, then install it using one of the methods explained [here](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
+3. Mount and boot your operating system image, then install it using one of the methods explained in [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
 
-  You will use the IPMI private IP address and root credentials from step 2 here.
+  Use the IPMI private IP address and root credentials from step 2 here.
   {: note}
 
   The server should, by default, boot to the mounted image without the need for a password. Ensure no other media is mounted to the server before proceeding with this step.
   {: important}
 
-  Additional documentation on setting up a VPN connection can be found [here](/docs/iaas-vpn?topic=iaas-vpn-getting-started#getting-started).
+  For more information on setting up a VPN connection, see [Getting started with {{site.data.keyword.cloud_notm}} Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started#getting-started).
   {: tip}
 
-Below is an example of an Ubuntu 18.04 ISO image that has been mounted to the Bring Your Own Appliance's IPMI web interface using the Java iKVM viewer and virtual storage feature.
+The following is an example of an Ubuntu 18.04 ISO image that has been mounted to the Bring Your Own Appliance's IPMI web interface using the Java iKVM viewer and virtual storage feature.
 
   ![Ubuntu example](images/byog-6.png "Ubuntu example")

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2019-11-13"
+  years: 2017, 2020
+lastupdated: "2020-08-13"
 
-keywords: view, appliance, details, portal
+keywords: appliance, details
 
 subcollection: gateway-appliance
 
@@ -22,17 +22,17 @@ subcollection: gateway-appliance
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Viewing Gateway Appliance details
+# Viewing gateway appliance details
 {: #viewing-gateway-appliance-details}
 {: help}
 {: support}
 
-Network Gateways are used to control network traffic on a VLAN that is regularly controlled by a router. Within the Gateway Appliance Details screen on the IBM Cloud console, you can associate, disassociate, route and bypass VLANs associated with a Network Gateway.
+Network gateways are used to control network traffic on a VLAN that is regularly controlled by a router. Within the Gateway Appliance Details page on the IBM Cloud console, you can associate, disassociate, route and bypass VLANs associated with a network gateway.
 {: shortdesc}
 
-Perform the following procedure to access the Gateway Details screen.
+Perform the following procedure to reach the Gateway Appliance Details page.
 
-1. [Access the Gateway Appliances screen](/docs/gateway-appliance?topic=gateway-appliance-viewing-all-gateway-appliances#viewing-all-gateway-appliances) in the IBM Cloud console.
-2. Click the Gateway Appliance Name for the desired Network Gateway to access the Gateway Appliance Details screen.
+1. [Access the Gateway Appliances page](/docs/gateway-appliance?topic=gateway-appliance-viewing-all-gateway-appliances#viewing-all-gateway-appliances) in the IBM Cloud console.
+2. Click the name of the network gateway you want to view to access the Gateway Appliance Details page.
 
-Interactions may be taken on multiple VLANs at any given time using the Bulk Actions feature.
+Use the Bulk Actions feature to take action on multiple VLANs at the same time.

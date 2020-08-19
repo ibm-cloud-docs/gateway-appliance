@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2018
+  years: 2017, 2019
 
 lastupdated: "2019-11-13"
 
@@ -25,7 +25,7 @@ subcollection: gateway-appliance
 # Blogs and other links
 {: #other-resources-for-ibm-gateway-appliances}
 
-These resources for Gateway Appliances were created by IBM and some of our partners and customers.
+These resources for gateway appliances were created by IBM and some of our partners and customers.
 {: shortdesc}
 
 * [**Product Brief: AT&T Vyatta vRouter: Agile Networking and High Performance**](https://public.dhe.ibm.com/cloud/bluemix/network/vra/final_vyatta_product_brief_june_2018_2.pdf){: external}
