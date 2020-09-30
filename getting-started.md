@@ -4,7 +4,7 @@ copyright:
   years: 2018, 2020
 lastupdated: "2020-07-27"
 
-keywords: order, vsrx, vra, getting started
+keywords: order, vsrx, vra, getting started, gateway, appliance
 
 subcollection: gateway-appliance
 
