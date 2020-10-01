@@ -1,2 +1,0 @@
-# gateway-appliance
-gateway-appliance
