@@ -25,7 +25,7 @@ Gateway Appliance
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    /hardware-firewall-dedicated/hardware-firewall-dedicated-ibm-cloud-ip-ranges
+    /hardware-firewall-shared/hardware-firewall-shared-ibm-cloud-ip-ranges
     external-resources.md
     {: .navgroup-end}
 
