@@ -22,6 +22,7 @@ Gateway Appliance
     rename-gateway.md
     cancel-gateway.md
     manage-vlans.md
+    managing-permissions-and-device-access.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
