@@ -26,7 +26,7 @@
       "community": "https://community.ibm.com/community/user/publiccloud/home"
     },
     "section_updates": {
-      "view_more": "/docs/acme-test?topic=acme-test-release-notes",
+      "view_more": "https://www.ibm.com/cloud/network-appliances",
       "tiles": [
         {
           "date": "August 2018",

@@ -1,0 +1,55 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+---
+toc:
+  properties:
+    subcollection: gateway-appliance
+    version: 2
+    category: network_classic
+    audience: service
+    href: /docs/gateway-appliance
+    console-page: https://cloud.ibm.com/catalog/infrastructure/gateway-appliance
+    product-page: https://www.ibm.com/cloud/network-appliances
+    path: gateway-appliance
+    label: Gateway Appliances
+
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - about.md
+      - link:
+          label: What are computer networking solutions?
+          href: https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu
+
+  - navgroup:
+      id: howto
+      topics:
+      - topicgroup:
+          label: Order
+          topics:
+          - /virtual-router-appliance/virtual-router-appliance-getting-started
+          - /vsrx/vsrx-ordering-with-a-linked-account
+          - order-byoa.md
+      - access-gateway-appliances.md
+      - access-gateway-details.md
+      - rename-gateway.md
+      - cancel-gateway.md
+      - manage-vlans.md
+      - managing-permissions-and-device-access.md
+
+  - navgroup:
+      id: reference
+      topics:
+      - /hardware-firewall-shared/hardware-firewall-shared-ibm-cloud-ip-ranges
+      - external-resources.md
+
+  - navgroup:
+      id: help
+      topics:
+      - /virtual-router-appliance/virtual-router-appliance-faqs-for-ibm-virtual-router-appliance
+      - /virtual-router-appliance/virtual-router-appliance-technical-faqs-for-ibm-virtual-router-appliance
+      - /vsrx/vsrx-known-limitations-for-ibm-cloud-juniper-vsrx
+      - getting-help.md
