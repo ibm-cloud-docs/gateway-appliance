@@ -22,7 +22,7 @@ subcollection: gateway-appliance
 {: #managing-permissions-and-device-access}
 
 To view and manage your gateway appliances, you need the correct permissions and access to devices. After the account administrator grants your user account permissions and access, you can view your gateway appliance details by using the {{site.data.keyword.cloud}} console, or by using the {{site.data.keyword.slapi_short}}. The information or actions that you see depend on your account's permissions and device access.
-{:shortdesc}
+{: shortdesc}
 
 You can assign device access to any user on your account, but not to yourself. Only an account's administrator has access to all devices on their customer account and can set access for all other users on their account.
 

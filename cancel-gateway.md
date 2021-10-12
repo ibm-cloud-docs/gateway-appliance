@@ -38,7 +38,7 @@ You can cancel your gateway appliance at any time by following these instruction
 
    ![Cancel gateway](images/cancel-gateway.png "Cancel gateway")
 
-5. Select **Actions > Cancel device** and follow the prompts to cancel the gateway appliance.
+6. Select **Actions > Cancel device** and follow the prompts to cancel the gateway appliance.
 
 For Highly Available server pairs, you must select and cancel both server members listed in the Hardware section on the Gateway Appliance Details page to cancel the gateway.
 {: note}

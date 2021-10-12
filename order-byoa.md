@@ -66,14 +66,14 @@ To order a gateway appliance with the BYOA option, perform the following procedu
 
 9. Select your SSH keys, if you want to use them to authenticate access to your new gateway.
 
-8. From the **Storage Disks** section, choose the options that meet your storage requirements.
+10. From the **Storage Disks** section, choose the options that meet your storage requirements.
 
-9. From the **Network Interface** section, select your uplink port speeds. The default selection is a single interface, but there are redundant and private options as well. Choose the one that best fits your needs.
+11. From the **Network Interface** section, select your uplink port speeds. The default selection is a single interface, but there are redundant and private options as well. Choose the one that best fits your needs.
 
     The **Network Interface Add Ons** section allows you to select an IPv6 address if required, and shows you any additional included default options.
     {: note}
 
-10. Review your selections, check that you have read the Third Party Service Agreements, then click **Create**. The form verifies the order automatically.
+12. Review your selections, check that you have read the Third Party Service Agreements, then click **Create**. The form verifies the order automatically.
 
 After your order is approved, the provisioning of your IBM Cloud Gateway starts automatically. When the provisioning process completes, the new gateway appears in the Gateway Appliances list page. Click the gateway name to open the Gateway Details page that shows the IP addresses, login username, and password for the device.
 
@@ -92,11 +92,11 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
 
     ![Gateway Appliance Details screen](images/byog-4.png "Gateway Appliance details screen")
 
-2. Click the **Remote Management** tab on the left side of the page, then make note of the IPMI private IP address and root credentials listed in the **Management Details** section.
+3. Click the **Remote Management** tab on the left side of the page, then make note of the IPMI private IP address and root credentials listed in the **Management Details** section.
 
     ![Management details](images/byog-5.png "Management details")
 
-3. Mount and boot your operating system image, then install it using one of the methods explained in [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
+4. Mount and boot your operating system image, then install it using one of the methods explained in [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
 
     Use the IPMI private IP address and root credentials from step 2 here.
     {: note}
