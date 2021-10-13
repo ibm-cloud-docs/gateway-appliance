@@ -77,7 +77,7 @@ To order a gateway appliance with the BYOA option, perform the following procedu
 
 After your order is approved, the provisioning of your IBM Cloud Gateway starts automatically. When the provisioning process completes, the new gateway appears in the Gateway Appliances list page. Click the gateway name to open the Gateway Details page that shows the IP addresses, login username, and password for the device.
 
-    ![Confirm setup](images/byog-3.png "Confirm setup")
+![Confirm setup](images/byog-3.png "Confirm setup")
 
 ## Installing an operating system on the gateway
 
@@ -109,4 +109,4 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
 
 The following is an example of an Ubuntu 18.04 ISO image that has been mounted to the Bring Your Own Appliance's IPMI web interface using the Java iKVM viewer and virtual storage feature.
 
-    ![Ubuntu example](images/byog-6.png "Ubuntu example")
+![Ubuntu example](images/byog-6.png "Ubuntu example")
