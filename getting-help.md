@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017,2019
+  years: 2017, 2019
 lastupdated: "2019-11-13"
 
 keywords: contact, troubleshooting
@@ -10,15 +10,7 @@ subcollection: gateway-appliance
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank_"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:download: .download}
-{:note: .note}
-{:important: .important}
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting help and support
 {: #getting-help}

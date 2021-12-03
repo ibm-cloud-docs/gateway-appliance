@@ -8,20 +8,12 @@ subcollection: gateway-appliance
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:note: .note}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing permissions and device access
 {: #managing-permissions-and-device-access}
 
-To view and manage your gateway appliances, you need the correct permissions and access to devices. After the account administrator grants your user account permissions and access, you can view your gateway appliance details by using the {{site.data.keyword.cloud}} console, or by using the {{site.data.keyword.slapi_short}}. The information or actions that you see depend on your account's permissions and device access.
+To view and manage your gateway appliances, you need the correct permissions and access to devices. After your account administrator grants your user account permissions and access, you can view your gateway appliance details by using the {{site.data.keyword.cloud}} console, or by using the {{site.data.keyword.slapi_short}}. The information or actions that you see depend on your account's permissions and device access.
 {: shortdesc}
 
 You can assign device access to any user on your account, but not to yourself. Only an account's administrator has access to all devices on their customer account and can set access for all other users on their account.
@@ -37,7 +29,7 @@ The following permissions are required for viewing and managing various parts of
 
 If you are the account administrator and you want to grant a user permission to view and manage gateway appliance details, complete the following steps.
 
-1. Log in to the [Access (IAM) ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/iam/users){: new_window} page in the {{site.data.keyword.cloud}} console.
+1. Log in to the [Access (IAM)](https://cloud.ibm.com/iam/users){: external} page in the {{site.data.keyword.cloud}} console.
 2. Select **View: My classic infrastructure users**.
 3. Select a user, click the **Classic infrastructure** tab, then click the **Permissions** tab.
 4. Expand the **Network** category and select **Manage Network Gateways**.
@@ -49,7 +41,7 @@ If you are the account administrator and you want to grant a user permission to 
 
 If you want to provide a user access to a specific device, complete the following steps.
 
-1. Log in to the [Access (IAM) ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/iam/users){: new_window} page in the {{site.data.keyword.cloud}} console.
+1. Log in to the [Access (IAM)](https://cloud.ibm.com/iam/users){: external} page in the {{site.data.keyword.cloud}} console.
 2. Select **View: My classic infrastructure users**.
 3. Select a user, then click the **Classic infrastructure** tab and the **Devices** tab.
 4. In the **Select type** section, select **All bare metal servers** to allow users to access all the bare metal devices.

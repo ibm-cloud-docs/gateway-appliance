@@ -11,16 +11,7 @@ subcollection: gateway-appliance
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank_"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:download: .download}
-{:note: .note}
-{:important: .important}
-{:external: target="_blank_" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Blogs and other links
 {: #other-resources-for-ibm-gateway-appliances}

@@ -1,0 +1,38 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="gateway-appliance" category="network_classic" audience="service" href="/docs/gateway-appliance" console-page="https://cloud.ibm.com/gen1/infrastructure/provision/gateway" product-page="https://www.ibm.com/cloud/network-appliances" path="gateway-appliance"}
+Gateway Appliance
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about.md
+    [What are computer networking solutions?](https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: topicgroup}
+    Order
+        [Ordering a Virtual Router Appliance](https://{DomainName}/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started#order-vra)
+        [Ordering a Juniper vSRX](https://{DomainName}/docs/vsrx?topic=vsrx-getting-started#ordering-with-a-linked-account)
+        order-byoa.md
+
+    access-gateway-appliances.md
+    access-gateway-details.md
+    rename-gateway.md
+    cancel-gateway.md
+    manage-vlans.md
+    device-access.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    /hardware-firewall-shared/hardware-firewall-shared-ibm-cloud-ip-ranges
+    external-resources.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    [FAQs for Virtual Router Appliance](https://{DomainName}/docs/virtual-router-appliance?topic=virtual-router-appliance-faqs-for-ibm-virtual-router-appliance#faqs-for-ibm-virtual-router-appliance)
+    [Technical FAQs for Virtual Router Appliance](https://{DomainName}/docs/virtual-router-appliance?topic=virtual-router-appliance-technical-faqs-for-ibm-virtual-router-appliance#technical-faqs-for-ibm-virtual-router-appliance)
+    [Known limitations for Juniper vSRX](https://{DomainName}/docs/vsrx?topic=vsrx-known-limitations-for-ibm-cloud-juniper-vsrx)
+    getting-help.md
+    {: .navgroup-end}

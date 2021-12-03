@@ -10,15 +10,7 @@ subcollection: gateway-appliance
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank_"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:download: .download}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting started with IBM Cloud Gateway Appliance
 {: #getting-started}
@@ -41,9 +33,9 @@ To get started, first determine which gateway appliance is right for you. The fo
 |**Multi-VLAN Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
 |**NAT Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|
 |**HA Option**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**Manage from API & Portal**|Appliance GUI|Appliance GUI||
+|**Manage from API & Portal**|Appliance GUI|Appliance GUI| |
 |**10Gbps Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**NGFW Add-ons (IPS, AV, WF)**||![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|
+|**NGFW Add-ons (IPS, AV, WF)**| |![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|
 |**Cost**| Starting $219.00/month + Cost of Bare Metal Server | Starting $299.00/month + Cost of Bare Metal Server | Starting $120.00/month + Cost of Bare Metal Server |
 {: row-headers}
 {: class="comparison-table"}

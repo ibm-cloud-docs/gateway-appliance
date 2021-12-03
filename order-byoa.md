@@ -10,15 +10,7 @@ subcollection: gateway-appliance
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank_"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:tip: .tip}
-{:download: .download}
-{:note: .note}
-{:important: .important}
+{{site.data.keyword.attribute-definition-list}}
 
 # Ordering a Bring Your Own gateway appliance
 {: #order-byoa}
@@ -32,10 +24,11 @@ You must have the software license(s) and images for your chosen operating syste
 {: note}
 
 ## Ordering with a linked account
+{: #order-linked-account}
 
 To order a gateway appliance with the BYOA option, perform the following procedure:
 
-1. From your browser, open the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com){: new_window} and log in to your account.
+1. From your browser, open the [IBM Cloud console](https://cloud.ibm.com){: external} and log in to your account.
 
 2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Classic Infrastructure**.
 
@@ -46,7 +39,7 @@ To order a gateway appliance with the BYOA option, perform the following procedu
     If you do not see the **Other** option, contact IBM Support for details on enabling it for your account.
     {: note}
 
-    ![Other](images/byog-1.png "Other")
+    ![Other](images/byog-1.png "Other"){: caption="Other option" caption-side="bottom"}
 
 5. Enter your Hostname and Domain Name information in the **Gateway Appliance** section. Ensure the default information that populates the fields is accurate, and make any necessary corrections.
 
@@ -60,7 +53,7 @@ To order a gateway appliance with the BYOA option, perform the following procedu
 
 7. From the **Configuration** section, choose your processor. Single processors are 1G and dual processors are 10G.
 
-    ![Processor selection](images/byog-2.png "Processor selection")
+    ![Processor selection](images/byog-2.png "Processor selection"){: caption="Processor selection" caption-side="bottom"}
 
 8. Select your RAM settings.
 
@@ -77,9 +70,10 @@ To order a gateway appliance with the BYOA option, perform the following procedu
 
 After your order is approved, the provisioning of your IBM Cloud Gateway starts automatically. When the provisioning process completes, the new gateway appears in the Gateway Appliances list page. Click the gateway name to open the Gateway Details page that shows the IP addresses, login username, and password for the device.
 
-![Confirm setup](images/byog-3.png "Confirm setup")
+![Confirm setup](images/byog-3.png "Confirm setup"){: caption="Confirm setup" caption-side="bottom"}
 
 ## Installing an operating system on the gateway
+{: #install-os}
 
 To install an operating system on the Gateway, perform the following procedure:
 
@@ -90,11 +84,11 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
 
 2. Click the Gateway Appliance name for BYOG appliance to access the Gateway Appliance Details page.
 
-    ![Gateway Appliance Details screen](images/byog-4.png "Gateway Appliance details screen")
+    ![Gateway Appliance Details screen](images/byog-4.png "Gateway Appliance details screen"){: caption="Gateway Appliance details screen" caption-side="bottom"}
 
 3. Click the **Remote Management** tab on the left side of the page, then make note of the IPMI private IP address and root credentials listed in the **Management Details** section.
 
-    ![Management details](images/byog-5.png "Management details")
+    ![Management details](images/byog-5.png "Management details"){: caption="Management details" caption-side="bottom"}
 
 4. Mount and boot your operating system image, then install it using one of the methods explained in [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
 
@@ -109,4 +103,4 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
 
 The following is an example of an Ubuntu 18.04 ISO image that has been mounted to the Bring Your Own Appliance's IPMI web interface using the Java iKVM viewer and virtual storage feature.
 
-![Ubuntu example](images/byog-6.png "Ubuntu example")
+![Ubuntu example](images/byog-6.png "Ubuntu example"){: caption="Ubuntu example" caption-side="bottom"}
