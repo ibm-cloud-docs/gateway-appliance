@@ -49,6 +49,9 @@ If you want to provide a user access to a specific device, complete the followin
 6. Use the devices table to grant a user access to specific, individual devices.
 7. Click **Set**.
 
+In order to see specific devices, you must already have the correct permissions enabled on the permissions tab. If you do not, no devices will be listed.
+{: tip}
+
 ## Next steps
 {: #next-steps-device-access}
 
