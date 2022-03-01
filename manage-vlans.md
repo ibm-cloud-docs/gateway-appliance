@@ -15,7 +15,7 @@ subcollection: gateway-appliance
 # Managing VLANs with a gateway appliance
 {: #managing-vlans-and-gateway-appliances}
 
-You can manage, associate, disassociate, route, and bypass VLANs with a gateway appliance. You can perform these actions from the [Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details).
+You can manage, associate, disassociate, route, and bypass VLANs with a gateway appliance. You can perform these actions from the [Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details). Before routing a VLAN to a gateway appliance, please make sure that the VLAN and subnet gateways of subnets assigned to the VLAN are configured properly on the gateway appliance itself.
 {: shortdesc}
 
 ## Associating a VLAN to a gateway appliance
