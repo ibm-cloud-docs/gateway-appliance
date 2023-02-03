@@ -25,6 +25,7 @@ toc:
           label: What are computer networking solutions?
           href: https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu
       - release-notes.md
+      - include: /fortigate-10g/explore-firewalls.md
 
   - navgroup:
       id: howto
@@ -32,8 +33,8 @@ toc:
       - topicgroup:
           label: Order
           topics:
-          - /virtual-router-appliance/virtual-router-appliance-getting-started
-          - /vsrx/vsrx-ordering-with-a-linked-account
+          - include: ../virtual-router-appliance/getting-started.md
+          - include: ../vsrx/blob/draft/getting-started.md
           - order-byoa.md
       - access-gateway-appliances.md
       - access-gateway-details.md
@@ -45,13 +46,13 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - /cloud-infrastructure/cloud-infrastructure-ibm-cloud-ip-ranges
+      - include: ../cloud-infrastructure/ips.md
       - external-resources.md
 
   - navgroup:
       id: help
       topics:
-      - /virtual-router-appliance/virtual-router-appliance-faqs-for-ibm-virtual-router-appliance
-      - /virtual-router-appliance/virtual-router-appliance-technical-faqs-for-ibm-virtual-router-appliance
-      - /vsrx/vsrx-known-limitations-for-ibm-cloud-juniper-vsrx
+      - include: ../virtual-router-appliance/faqs.md
+      - include: ../virtual-router-appliance/technical-faqs.md
+      - include: ../vsrx/known-limitations.md
       - getting-help.md
