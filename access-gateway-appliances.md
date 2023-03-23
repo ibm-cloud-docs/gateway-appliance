@@ -12,7 +12,7 @@ subcollection: gateway-appliance
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Viewing all gateway appliances
+# Viewing all gateway appliances1
 {: #viewing-all-gateway-appliances}
 {: help}
 {: support}
@@ -23,5 +23,5 @@ The Gateway Appliances page in the {{site.data.keyword.cloud}} console is where 
 Perform the following procedure to access the Gateway Appliances page in the IBM Cloud console.
 
 1. From your browser, open the [IBM Cloud catalog](https://cloud.ibm.com){: external} and log in to your account.
-2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Classic Infrastructure**.
+2. Select the Menu icon ![Menu icon](../icons/icon_hamburger.svg) from the top left, then click **Classic Infrastructure**.
 3. Choose **Network > Gateway Appliances**.

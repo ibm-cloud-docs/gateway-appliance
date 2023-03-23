@@ -25,9 +25,6 @@ You can cancel your gateway appliance at any time by following these instruction
 3. Choose **Network > Gateway Appliances**.
 4. Click the Gateway Appliance name to open the Gateway Appliance Details page.
 5. From the Hardware section, click the name of the hardware member to open the server details page.
-
-   ![Cancel gateway](images/cancel-gateway.png){: caption="Cancel a gateway" caption-side="bottom"}
-
 6. Select **Actions > Cancel device** and follow the prompts to cancel the gateway appliance.
 
 For Highly Available server pairs, you must select and cancel both server members listed in the Hardware section on the Gateway Appliance Details page to cancel the gateway.
@@ -36,8 +33,6 @@ For Highly Available server pairs, you must select and cancel both server member
 After you cancel the gateway appliance, the server(s) are reclaimed at the next billing cycle. For example, if you cancel the server(s) on September 8, the service is available until it is reclaimed on October 1.
 
 You can verify if your gateway appliance is in the process of being canceled by viewing the Gateway Appliance Details page. Gateways in the process of being canceled show as **Cancel pending**.
-
-   ![Cancel pending](images/cancel-pending.png){: caption="Cancel pending" caption-side="bottom"}
 
 If necessary, you can expedite the process by opening a case with IBM Support and requesting that the gateway appliance be reclaimed immediately. This process can take 24 to 48 hours.
 {: tip}

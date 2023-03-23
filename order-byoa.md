@@ -39,8 +39,6 @@ To order a gateway appliance with the BYOA option, perform the following procedu
     If you do not see the **Other** option, contact IBM Support for details on enabling it for your account.
     {: note}
 
-    ![Other](images/byog-1.png "Other"){: caption="Other option" caption-side="bottom"}
-
 5. Enter your Hostname and Domain Name information in the **Gateway Appliance** section. Ensure the default information that populates the fields is accurate, and make any necessary corrections.
 
 6. Select a data center location and the specific pod you want from the menu.
@@ -52,8 +50,6 @@ To order a gateway appliance with the BYOA option, perform the following procedu
     {: note}
 
 7. From the **Configuration** section, choose your processor. Single processors are 1G and dual processors are 10G.
-
-    ![Processor selection](images/byog-2.png "Processor selection"){: caption="Processor selection" caption-side="bottom"}
 
 8. Select your RAM settings.
 
@@ -70,8 +66,6 @@ To order a gateway appliance with the BYOA option, perform the following procedu
 
 After your order is approved, the provisioning of your IBM Cloud Gateway starts automatically. When the provisioning process completes, the new gateway appears in the Gateway Appliances list page. Click the gateway name to open the Gateway Details page that shows the IP addresses, login username, and password for the device.
 
-![Confirm setup](images/byog-3.png "Confirm setup"){: caption="Confirm setup" caption-side="bottom"}
-
 ## Installing an operating system on the gateway
 {: #install-os}
 
@@ -84,11 +78,7 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
 
 2. Click the Gateway Appliance name for BYOG appliance to access the Gateway Appliance Details page.
 
-    ![Gateway Appliance Details screen](images/byog-4.png "Gateway Appliance details screen"){: caption="Gateway Appliance details screen" caption-side="bottom"}
-
 3. Click the **Remote Management** tab on the left side of the page, then make note of the IPMI private IP address and root credentials listed in the **Management Details** section.
-
-    ![Management details](images/byog-5.png "Management details"){: caption="Management details" caption-side="bottom"}
 
 4. Mount and boot your operating system image, then install it using one of the methods explained in [Mounting an ISO on a bare metal server](/docs/bare-metal?topic=bare-metal-bm-mount-iso).
 
@@ -102,5 +92,3 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
     {: tip}
 
 The following is an example of an Ubuntu 18.04 ISO image that has been mounted to the Bring Your Own Appliance's IPMI web interface using the Java iKVM viewer and virtual storage feature.
-
-![Ubuntu example](images/byog-6.png "Ubuntu example"){: caption="Ubuntu example" caption-side="bottom"}

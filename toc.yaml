@@ -34,7 +34,7 @@ toc:
           label: Order
           topics:
           - include: ../virtual-router-appliance/getting-started.md
-          - include: ../vsrx/blob/draft/getting-started.md
+          - include: ../vsrx/getting-started.md
           - order-byoa.md
       - access-gateway-appliances.md
       - access-gateway-details.md
