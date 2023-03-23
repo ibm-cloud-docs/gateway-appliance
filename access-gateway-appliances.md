@@ -12,7 +12,7 @@ subcollection: gateway-appliance
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Viewing all gateway appliances1
+# Viewing all gateway appliances
 {: #viewing-all-gateway-appliances}
 {: help}
 {: support}
