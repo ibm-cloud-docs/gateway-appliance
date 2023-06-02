@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-08-13"
+lastupdated: "2023-04-23"
 
-keywords: manage, associate, disassociate, route, bypass
+keywords: manage, associate, disassociate, route, bypass, vlan
 
 subcollection: gateway-appliance
 
@@ -15,62 +15,96 @@ subcollection: gateway-appliance
 # Managing VLANs with a gateway appliance
 {: #managing-vlans-and-gateway-appliances}
 
-You can manage, associate, disassociate, route, and bypass VLANs with a gateway appliance. You can perform these actions from the [Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details). Before routing a VLAN to a gateway appliance, please make sure that the VLAN and subnet gateways of subnets assigned to the VLAN are configured properly on the gateway appliance itself.
+By using a gateway appliance and the IBM Cloud console, you can manage your [VLANs](https://cloud.ibm.com/networking/vlans) with the associate, disassociate, "route through", and "route around" actions. 
 {: shortdesc}
+
+While the "associate" and "disassociate" actions are administrative in nature and do not change the way traffic flows (unless you are disassociating a VLAN while it is in the "route through" state), the "route through" and "route around" actions do change the way traffic flows. The "Route through" action essentially means you will manage your own VLANs on your own gateway appliance, while "route around" means the the IBM Cloud network team manages your VLANs on your Front-end Customer Routers (FCR) and Back-end Customer Routers (BCR). 
+
+You can perform these actions from the [Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details) by selecting the **VLANs** tab. 
+
+Before setting a VLAN to "route through" on a gateway appliance, please make sure that the VLAN and subnet gateways of the subnets assigned to the VLAN are configured properly on the gateway appliance itself. You should also make sure to allow proper traffic flow using firewall rules or security policies. If you do not configure the VLAN(s), subnet gateway(s), and firewall rules or security policies properly before setting the VLAN to "route through", the traffic will be routed to your gateway appliance and may cause outages to your servers or services on that VLAN. For Juniper vSRX, refer to [Creating the new interface, zone, and address book subnet](/docs/vsrx?topic=vsrx-creating-the-new-interface-zone-and-address-book-subnet), and for Vyatta Virtual Router Appliance refer to complete [Configuring your VLANs](/docs/virtual-router-appliance?topic=virtual-router-appliance-routing-your-vlans). 
+{: tip}
 
 ## Associating a VLAN to a gateway appliance
 {: #associate-a-vlan-to-a-gateway-appliance}
 
-A VLAN must be associated to a gateway appliance before it can be routed. VLAN association is the linking of an eligible VLAN to a network gateway so that it can be routed to a gateway appliance in the future. The process of association does not automatically route a VLAN to a gateway appliance; the VLAN continues to use front-end and back-end customer routers until it is routed to the gateway.
+VLAN association is the administrative linking of an eligible VLAN to a gateway appliance so that it can be set to "route through". You must associate a VLAN to a gateway appliance before it can be set to "route through", and this process does not automatically set it to "route through". The VLAN continues to be managed by the Front-end Customer Routers (FCRs) or Back-end Customer Routers (BCRs) until it is set to "route through" on the gateway appliance details page.
 
-VLANs can be associated to only one gateway at a time and must not have a firewall. Perform the following procedure to associate a VLAN to a network gateway.
+VLANs can be associated to only one gateway appliance at a time and must not already have a [hardware firewall](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-) applied.  If there is, all servers on that VLAN will have their traffic routed to the hardware firewall. VLANs must also be in the same pod as the gateway appliance. A pod is defined by the specific FCR and BCR that the gateway appliance, servers and VLANs are behind.
 
-1. [Access the Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details) in the IBM Cloud console.
-2. Select the VLAN you want from the **Associate a VLAN** list.
+Perform the following procedure to associate a VLAN to a gateway appliance:
+
+1. From your browser, open the [IBM Cloud console](https://cloud.ibm.com){: external} and log in to your account.
+1. Select the Menu icon from the top left, then click **Classic Infrastructure**.
+1. Choose **Network > Gateway Appliances**.
+1. Click the name of the network gateway you want to view to access the Gateway Appliance Details page.
+2. Select the VLANs tab, then click the blue **Associate VLAN** button. Select the VLAN you want to associate with your gateway appliance from the **Associate VLAN** dropdown.
 3. Click the **Associate** button to associate the VLAN.
 
-After associating a VLAN to the gateway appliance, it appears in the Associated VLANs section of the Gateway Appliance Details page. From this section, the VLAN can be routed to the gateway, or be disassociated from the gateway. Additional eligible VLANs can be associated to a gateway appliance at any time by repeating these steps.
+After associating a VLAN to the gateway appliance, it appears in the list of associated VLANs in the VLANs tab of the gateway appliance details page. From this section, the VLAN can be set to "route through" or be disassociated from the gateway appliance. You can associate additional VLANs to a gateway appliance by repeating these steps.
 
-## Routing an associated VLAN
+## Setting an associated VLAN to "route through"
 {: #route-an-associated-vlan}
 
-Associated VLANs are linked to a gateway appliance, but traffic in and out of the VLAN does not hit the gateway until the VLAN is routed. After an associated VLAN is routed, all front-end and back-end traffic is routed through the gateway appliance as opposed to customer routers.
+Associated VLANs are linked to a gateway appliance, but traffic to or from servers in the VLAN does not traverse the gateway appliance until the VLAN is set to "route through". After you set a VLAN to "route through", all of the subnets on that VLAN are statically routed to the gateway appliance from the back-end customer routers or front-end customer routers. This process also adds the VLAN's `allow` or `trunk` configuration lines for the switchports between the gateway appliance and the servers on the VLAN, which makes the gateway appliance act as the next-hop router and firewall for servers on that VLAN.
 
-Perform the following procedure to route an associated VLAN:
+Perform the following procedure to set an associated VLAN to "route through":
 
-1. [Access the Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details) in the IBM Cloud console.
-2. Locate the VLAN you want in the Associated VLANs section.
-3. Select **Route VLAN** from the Actions menu.
-4. Click **Yes** to route the VLAN.
+1. From your browser, open the [IBM Cloud console](https://cloud.ibm.com){: external} and log in to your account.
+1. Select the Menu icon from the top left, then click **Classic Infrastructure**.
+1. Choose **Network > Gateway Appliances**.
+1. Click the name of the network gateway you want to view to access the Gateway Appliance Details page.
+2. Click the **VLANs** tab on the left.
+3. Click the checkbox next to the VLAN(s) you would like to set to "route through", then click the **Route Through** button.
+4. Click **OK** to confirm. 
 
-After routing a VLAN, all front-end and back-end traffic moves from the customer routers to the network gateway. Additional controls related to traffic and the gateway appliance itself can be taken by accessing the gateway's management tool. Routing through the network gateway can be discontinued at any time by [bypassing the gateway appliance](#bypass-gateway-appliance-routing-for-a-vlan).
+This will cause a brief outage with services on that VLAN, as traffic is routed away from the gateway appliance.
+{: note}
+
+All traffic to and from servers on your VLAN will now use the gateway appliance as the next-hop router. You can configure and control the VLAN and its traffic by accessing the gateway appliance through SSH or its native GUI. 
+
+Servers within the same subnet and VLAN will not traverse the gateway appliance when connecting to each other, but servers on the same VLAN in different subnets will traverse the gateway appliance when connecting to each other. 
+{: tip}
 
 ## Bypassing gateway appliance routing for a VLAN
 {: #bypass-gateway-appliance-routing-for-a-vlan}
 
-After a VLAN is routed, all front-end and back-end traffic travels through the network gateway. At any time, the gateway appliance can be bypassed so that traffic returns to the front-end and back-end customer routers (FCR and BCR).
+You can bypass the gateway appliance so that traffic only uses the FCR or BCR. 
 
-Bypassing a VLAN allows the VLAN to remain associated to the network gateway. If the VLAN should no longer be associated with the gateway appliance, see [Disassociating a VLAN from a gateway appliance](#disassociate-a-vlan-from-a-gateway-appliance).
+Bypassing a VLAN will not disassociate the VLAN from the gateway appliance. If the VLAN should no longer be associated with the gateway appliance, refer to the procedure on disassociating a VLAN from a gateway appliance in this topic.
+{: note}
 
 Perform the following procedure to bypass gateway routing for a VLAN:
 
-1. [Access the Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details) in the IBM Cloud console.
-2. Locate the VLAN you want in the Associated VLANs section.
-3. Select **Bypass VLAN** from the Actions menu.
-4. Click **Yes** to bypass the gateway.
+1. From your browser, open the [IBM Cloud catalog](https://cloud.ibm.com){: external} and log in to your account.
+1. Select the Menu icon from the top left, then click **Classic Infrastructure**.
+1. Choose **Network > Gateway Appliances**.
+1. Click the name of the network gateway you want to view to access the Gateway Appliance Details page.
+2. Click the **VLANs** tab on the left.
+3. Click the checkbox next to the VLAN(s) you would like to set to "route around", then click the **Route Around** button.
+4. Click **OK** to confirm. 
 
-After bypassing the network gateway, all front-end and back-end traffic routes through the FCR and BCR associated with the VLAN. The VLAN remains associated with the gateway appliance and can be routed back to the gateway appliance at any time.
+This will cause a brief outage with services on that VLAN, as traffic is routed away from the gateway appliance.
+{: note}
+
+After bypassing the network gateway, all server traffic egressing and ingressing the VLAN will use the FCR or BCR (instead of the gateway appliance) as the next-hop router. The VLAN remains associated with the gateway appliance and can be routed back at any time.
 
 ## Disassociating a VLAN from a gateway appliance
 {: #disassociate-a-vlan-from-a-gateway-appliance}
 
-VLANs can be linked to one gateway appliance at a time through [association](#associate-a-vlan-to-a-gateway-appliance). Association allows the VLAN to be routed to the gateway appliance at any time. If a VLAN should be associated to another gateway appliance, or if the VLAN should no longer be associated to its gateway, disassociation is required. Disassociation removes the "link" from the VLAN to the gateway appliance, allowing it to be associated to another gateway, if necessary.
+If you need to associate a VLAN to another gateway appliance, or if the VLAN should no longer be associated to its current gateway appliance, you can disassociate  it. Disassociation removes the reservation that the gateway appliance has on the VLAN, allowing it to be associated to another gateway appliance or firewall. If the VLAN is set to "route through", then the VLAN will also be functionally set to "route around" while being disassociated.
 
 Perform the following procedure to disassociate a VLAN from a gateway appliance:
 
-1. [Access the Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details) in the IBM Cloud console.
-2. Locate the VLAN you want in the Associated VLANs section.
-3. Select **Disassociate** from the **Actions** menu.
-4. Click **Yes** to disassociate the VLAN.
+1. From your browser, open the [IBM Cloud catalog](https://cloud.ibm.com){: external} and log in to your account.
+1. Select the Menu icon from the top left, then click **Classic Infrastructure**.
+1. Choose **Network > Gateway Appliances**.
+1. Click the name of the network gateway you want to view to access the Gateway Appliance Details page.
+2. Click the **VLANs** tab on the left.
+3. Click the checkbox next to the VLAN(s) you would like to set to disassociate and then click the blue **Disassociate** button on the right.
+4. Click **OK** to confirm. 
 
-After disassociating a VLAN from a gateway appliance, the VLAN can be associated to another gateway. The VLAN can also be associated back to the gateway appliance at any time. After disassociating a VLAN from a gateway appliance, the VLAN's traffic cannot be routed through the gateway. VLANs must be associated to a gateway appliance before they can be routed.
+If the VLAN is set to "route through", there will be a brief outage with services on that VLAN as it reconfigures. If the VLAN is set to "route around", then there will be no outage.
+{: note}
+
+The VLAN can now be associated to another gateway appliance. 
