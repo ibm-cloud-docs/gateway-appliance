@@ -15,7 +15,7 @@ subcollection: gateway-appliance
 # Ordering a Bring Your Own gateway appliance
 {: #order-byoa}
 
-{{site.data.keyword.cloud}} Gateway 1G and 10G offerings include the Virtual Router Appliance and Juniper vSRX. You can also deploy a third gateway solution with no operating system installed. This solution provides the same 1G and 10G hardware, as well as the same networking, but provides you the flexibility to install a custom operating system and gateway software stack, such as F5 or Palo Alto.
+{{site.data.keyword.cloud}} Gateway 1G and 10G offerings include the Virtual Router Appliance and Juniper vSRX. You can also deploy a third gateway solution with no operating system installed. This solution provides the same 1G and 10G hardware, as well as the same networking, but provides you the flexibility to install a custom operating system and gateway software stack. You would need to custom install the operating system, including hypervisor, and the virtual machine from the IPMI of the baremetal device. Examples of gateway appliances that have been created and installed by clients on the BYOGWA platform include pfSense directly to hard disk, Palo Alto VM-Series Firewall on a hypervisor, FortiGate-VM on a hypervisor, and Juniper vSRX on a hypervisor.
 {: shortdesc}
 
 Use the information in this topic to order a gateway appliance with the Bring Your Own Appliance (BYOA) option.
