@@ -4,6 +4,7 @@ includes:
   - https://github.ibm.com/cloud-docs-solutions/solution-tutorials
   - https://github.ibm.com/cloud-docs/virtual-router-appliance
   - https://github.ibm.com/cloud-docs/vsrx
+  - https://github.ibm.com/cloud-docs/icons
 translation:
   exclude:
     byFilePath:
