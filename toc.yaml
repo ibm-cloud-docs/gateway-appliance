@@ -25,7 +25,7 @@ toc:
           label: What are computer networking solutions?
           href: https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu
       - release-notes.md
-      - include: /fortigate-10g/explore-firewalls.md
+      - include: ../fortigate-10g/explore-firewalls.md
 
   - navgroup:
       id: howto
