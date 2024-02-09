@@ -15,7 +15,7 @@ subcollection: gateway-appliance
 # About {{site.data.keyword.cloud_notm}} Gateway Appliance
 {: #about}
 
-{{site.data.keyword.cloud}} Gateway Appliances allow you to selectively route private and public network traffic through a full-featured enterprise level firewall powered by the software features of VyOS, JunOS or any other operating system (BYOA) you choose, such as full routing stacks, QoS and traffic sharing, policy-based routing, and VPN. 
+{{site.data.keyword.cloud}} Gateway Appliances allow you to selectively route private and public network traffic through a full-featured enterprise level firewall powered by the software features of VyOS, JunOS or any other operating system (BYOA) you choose, such as full routing stacks, QoS and traffic sharing, policy-based routing, and VPN.
 {: shortdesc}
 
 The appliances provide performance, ease of configuration, and maintenance advantages with the simplicity of running on a bare metal server. The hardware is sized to handle the routing/security load for multiple VLANs and can be ordered with redundant network links and redundant RAID arrays. All appliance features are customer-managed.
@@ -43,7 +43,7 @@ With {{site.data.keyword.cloud_notm}} Gateway Appliances, you can provision appl
 For multi-tiered applications on different isolated networks, the appliances enable you to build connectivity between these networks with greater flexibility. You can set up dynamic routing using Border Gateway Protocol (BGP), which allows you to announce your own public IP space to the {{site.data.keyword.cloud_notm}} routers. BGP also offers more flexibility for custom private network configurations when using a mix of tunnels and direct link solutions.
 
 ## VLANs and the gateway appliance's role
-{: #vlans-and-the-gateway-appliance-s-role}
+{: #vlans-and-the-gateway-appliances-role}
 
 A VLAN (virtual LAN) is a mechanism that segregates a physical network into many virtual segments. For convenience, traffic from multiple selected VLANs can be delivered through a single network cable, a process commonly called "trunking."
 
