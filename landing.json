@@ -11,7 +11,7 @@
       {
         "title": "Ordering an IBM Cloud Virtual Router Appliance",
         "description": "The IBM Cloud™ Virtual Router Appliance (VRA) provides the latest Vyatta 5600 operating system for x86 bare metal servers. It is offered as a High Availability (HA) or standalone configuration, and lets you route private and public network traffic selectively, through a full-featured enterprise router that has firewall, traffic shaping, policy-based routing, VPN, and other features.",
-        "href": "/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started#order-vra"
+        "href": "/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started-vra"
       },
       {
         "title": "Ordering an IBM Cloud Junniper vSRX",

@@ -46,6 +46,6 @@ To get started, first determine which gateway appliance is right for you. The fo
 
 To get started with Gateway Appliance, click the following link for the device you've chosen:
 
-- [Getting started with IBM Cloud Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started)
+- [Getting started with IBM Cloud Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started-vra)
 - [Getting started with IBM Cloud Juniper vSRX Standard](/docs/vsrx?topic=vsrx-getting-started)
 - [Order a Bring Your Own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa)
