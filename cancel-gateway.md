@@ -20,8 +20,8 @@ subcollection: gateway-appliance
 You can cancel your gateway appliance at any time by following these instructions.
 {: shortdesc}
 
-1. From your browser, open the [IBM Cloud catalog](https://cloud.ibm.com){: external} and log in to your account.
-2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Classic Infrastructure**.
+1. From your browser, open the [IBM Cloud console](/login){: external} and log in to your account.
+2. Select the Menu icon ![Menu icon](../icons/icon_hamburger.svg) from the upper left, then click **Classic Infrastructure**.
 3. Choose **Network > Gateway Appliances**.
 4. Click the Gateway Appliance name to open the Gateway Appliance Details page.
 5. From the Hardware section, click the name of the hardware member to open the server details page.
@@ -30,7 +30,7 @@ You can cancel your gateway appliance at any time by following these instruction
 For Highly Available server pairs, you must select and cancel both server members listed in the Hardware section on the Gateway Appliance Details page to cancel the gateway.
 {: note}
 
-After you cancel the gateway appliance, the server(s) are reclaimed at the next billing cycle. For example, if you cancel the server(s) on September 8, the service is available until it is reclaimed on October 1.
+After you cancel the gateway appliance, the servers are reclaimed at the next billing cycle. For example, if you cancel the servers on September 8, the service is available until it is reclaimed on October 1.
 
 You can verify if your gateway appliance is in the process of being canceled by viewing the Gateway Appliance Details page. Gateways in the process of being canceled show as **Cancel pending**.
 
