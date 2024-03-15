@@ -16,7 +16,7 @@
       {
         "title": "Ordering an IBM Cloud Virtual FortiGate Security Appliance",
         "description": "IBM Cloud™ Virtual FortiGate Security Appliance allows you to route private and public network traffic selectively, through a full-featured, enterprise-level firewall that is powered by FortiOS software features, such as full routing stacks, QoS and traffic sharing, policy-based routing, and VPN, IPS, and IDP.",
-        "href": "/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started-vra"
+        "href": "/docs/vfsa?topic=vfsa-getting-started"
       }
     ],
     "section_learn": {
