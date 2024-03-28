@@ -15,7 +15,7 @@ subcollection: gateway-appliance
 # About {{site.data.keyword.cloud_notm}} Gateway Appliance
 {: #about}
 
-{{site.data.keyword.cloud}} Gateway Appliances allow you to selectively route private and public network traffic through a full-featured enterprise level firewall powered by the software features of VyOS, JunOS or any other operating system (BYOA) you choose, such as full routing stacks, QoS and traffic sharing, policy-based routing, and VPN.
+{{site.data.keyword.cloud}} Gateway Appliances allow you to selectively route private and public network traffic through a full-featured enterprise level firewall powered by the software features of Ciena Vyatta NOS, Juniper's Junos OS or any self-installed operating system (BYOGWA) of your choice. These features include network protection using customized firewall policies, IPSec VPN tunnels and remote access, SSL VPN, dynamic routing (BGP/OSPF), GRE tunnels, customizable source and destination NAT, general network troubleshooting capabilities, and extended capabilities to integrate a customizable Cloud hosted firewall, router and VPN gateway into your existing network infrastructure. Certain appliances also offer even more advanced security-focused features, such as IPS, WAF, Deep Packet Inspection and Antivirus.
 {: shortdesc}
 
 The appliances provide performance, ease of configuration, and maintenance advantages with the simplicity of running on a bare metal server. The hardware is sized to handle the routing/security load for multiple VLANs and can be ordered with redundant network links and redundant RAID arrays. All appliance features are customer-managed.
