@@ -24,18 +24,19 @@ IBM Cloud Gateway Appliances are devices that give you enhanced control over net
 To get started, first determine which gateway appliance is right for you. The following table provides a comparison between the appliance options.
 
 
-|        | [Virtual Router Appliance](/docs/virtual-router-appliance) | [Juniper vSRX](/docs/vsrx) |[Bring your own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa) |
-| ------- | :------: | :------: | :------: |
-|**Operating System**|Vyatta OS|Juniper vSRX|Any|
-|**IBM Cloud Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)| Limited |
-|**Single Tenant Appliance**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**VLAN Protection**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**Multi-VLAN Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**NAT Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|
-|**HA Option**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**Manage from API & Portal**|Appliance GUI|Appliance GUI| |
-|**10Gbps Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**NGFW Add-ons (IPS, AV, WF)**| |![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|
+|        | [Virtual Router Appliance](/docs/virtual-router-appliance) | [Juniper vSRX](/docs/vsrx) |[Bring your own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa) | [Virtual FortiGate Security Appliance](/docs/vfsa?topic=vfsa-getting-started)
+| ------- | :------: | :------: | :------: | :------: |
+|**Operating System**|Vyatta OS|Juniper vSRX|Any|FortiOS|
+|**IBM Cloud Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)| Limited |![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**Single Tenant Appliance**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**VLAN Protection**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**Multi-VLAN Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**NAT Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**HA Option**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**Manage from API & Portal**|Appliance GUI|Appliance GUI| |Appliance GUI
+|**10Gbps Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**NGFW Add-ons (IPS, AV, WF)**| |![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**Remote Access VPN**||![Checkmark icon](../../icons/checkmark-icon.svg)||![Checkmark icon](../../icons/checkmark-icon.svg)|
 {: row-headers}
 {: class="comparison-table"}
 {: caption="A comparison of IBM's gateway appliance offerings" caption-side="bottom"}
@@ -48,4 +49,5 @@ To get started with Gateway Appliance, click the following link for the device y
 
 - [Getting started with IBM Cloud Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started-vra)
 - [Getting started with IBM Cloud Juniper vSRX Standard](/docs/vsrx?topic=vsrx-getting-started)
+- [Getting started with IBM Cloud Virtual FortiGate Security Appliance](/docs/vfsa?topic=vfsa-getting-started)
 - [Order a Bring Your Own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa)
