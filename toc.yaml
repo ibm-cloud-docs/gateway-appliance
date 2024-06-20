@@ -9,7 +9,6 @@ toc:
     product-page: https://www.ibm.com/cloud/network-appliances
     path: gateway-appliance
     label: Gateway Appliances
-
   entries:
   - navgroup:
       id: learn
@@ -22,7 +21,6 @@ toc:
           href: https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu
       - release-notes.md
       - include: /fortigate-10g/explore-firewalls.md
-
   - navgroup:
       id: howto
       topics:
@@ -39,13 +37,11 @@ toc:
       - cancel-gateway.md
       - manage-vlans.md
       - managing-permissions-and-device-access.md
-
   - navgroup:
       id: reference
       topics:
       - include: ../cloud-infrastructure/ips.md
       - external-resources.md
-
   - navgroup:
       id: help
       topics:
