@@ -41,7 +41,6 @@ toc:
       id: reference
       topics:
       - include: ../cloud-infrastructure/ips.md
-      - external-resources.md
   - navgroup:
       id: help
       topics:
