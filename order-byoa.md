@@ -90,5 +90,3 @@ This procedure uses the IPMI interface to mount and boot to an OS image. Make su
 
     For more information on setting up a VPN connection, see [Getting started with {{site.data.keyword.cloud_notm}} Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started#getting-started).
     {: tip}
-
-The following is an example of an Ubuntu 18.04 ISO image that has been mounted to the Bring Your Own Appliance's IPMI web interface using the Java iKVM viewer and virtual storage feature.

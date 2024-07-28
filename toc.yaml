@@ -6,7 +6,7 @@ toc:
     audience: service
     href: /docs/gateway-appliance
     console-page: https://cloud.ibm.com/catalog/infrastructure/gateway-appliance
-    product-page: https://www.ibm.com/cloud/network-appliances
+    product-page: https://www.ibm.com/products/network-appliances
     path: gateway-appliance
     label: Gateway Appliances
   entries:
@@ -18,7 +18,7 @@ toc:
       - general-considerations.md
       - link:
           label: What are computer networking solutions?
-          href: https://www.ibm.com/cloud/learn/networking-a-complete-guide#toc-computer-n-9C7jokVu
+          href: https://www.ibm.com/topics/networking#toc-computer-n-9C7jokVu
       - release-notes.md
       - include: ../fortigate-10g/explore-firewalls.md
   - navgroup:
@@ -41,7 +41,6 @@ toc:
       id: reference
       topics:
       - include: ../cloud-infrastructure/ips.md
-      - external-resources.md
   - navgroup:
       id: help
       topics:
