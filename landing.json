@@ -1,6 +1,6 @@
 {
     "title": "Gateway Appliances docs",
-    "lastupdated": "2021-04-13",
+    "lastupdated": "2024-08-02",
     "introduction": "IBM Cloud Gateway Appliances are devices that give you enhanced control over network traffic, accelerate your network’s performance, and improve your network security. You can manage your physical and virtual networks for routing multiple VLANs, for firewalls, VPN, traffic shaping, and more.",
     "section_recommended": [
       {
