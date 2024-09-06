@@ -12,7 +12,7 @@ subcollection: hardware-firewall-shared
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Roles and Responsibilities for IBM Cloud Gateways and Firewalls
+# Roles and responsibilities for IBM Cloud gateways and firewalls
 {: #ga-raci}
 
 ## Overview of shared responsibilities
