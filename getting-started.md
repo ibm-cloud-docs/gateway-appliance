@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2020
-lastupdated: "2020-07-27"
+  years: 2017, 2024
+lastupdated: "2024-09-09"
 
 keywords: order, vsrx, vra, getting started, gateway, appliance
 
@@ -15,7 +15,7 @@ subcollection: gateway-appliance
 # Getting started with IBM Cloud Gateway Appliance
 {: #getting-started-ga}
 
-IBM Cloud Gateway Appliances are devices that give you enhanced control over network traffic, accelerate your network’s performance, and improve your network security. You can manage your physical and virtual networks for routing multiple VLANs, for firewalls, VPN, traffic shaping, and more.
+IBM Cloud Gateway Appliances are devices that give you enhanced control over network traffic, accelerate your network’s performance, and improve your network security. You can manage your physical and virtual networks for routing multiple VLANs, for firewalls, VPN, traffic shaping, and more. 
 {: shortdesc}
 
 ## Before you begin
