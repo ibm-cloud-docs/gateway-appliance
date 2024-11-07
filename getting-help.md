@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-11-14"
+  years: 2017, 2024
+lastupdated: "2024-11-07"
 
 keywords: contact, troubleshooting
 
@@ -23,7 +23,7 @@ If you experience an issue or have questions when using {{site.data.keyword.clou
 * Review [vSRX known limitations](/docs/gateway-appliance?topic=gateway-appliance-known-limitations-for-ibm-cloud-juniper-vsrx).
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
 
-If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-open-case&interface=ui).
 
 ## Providing support case details for vFSA
 {: #support-case-details-vfsa}
