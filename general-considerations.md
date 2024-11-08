@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2022
-lastupdated: "2022-04-19"
+  years: 2017, 2024
+lastupdated: "2024-11-08"
 
 keywords: vsrx, vra, gateway, appliance, considerations
 
@@ -24,7 +24,7 @@ The following considerations help provide additional information for using your 
 Bandwidth allotment is the allowed public bandwidth during a monthly billing cycle. For a gateway appliance, this is determined by the allotment assigned to each node or server. You can view this allotment by performing the following procedure:
 
 1. From your browser, open the [IBM Cloud catalog](https://cloud.ibm.com){: external} and log in to your account.
-2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Classic Infrastructure**.
+2. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) from the top left, then click **Infrastructure > Classic Infrastructure**.
 3. Choose **Network > Gateway Appliances**.
 4. Click on the gateway whose details you want to view. 
 

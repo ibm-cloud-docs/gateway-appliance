@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-10-08"
+  years: 2017, 2024
+lastupdated: "2024-11-08"
 
 keywords: appliance, details
 
@@ -23,7 +23,7 @@ Network gateways are used to control network traffic on a VLAN that is regularly
 To view the Gateway Appliance Details page, follow these steps:
 
 1. From your browser, open the [IBM Cloud console](/login){: external} and log in to your account.
-1. Select the Menu icon from the upper left, then click **Classic Infrastructure**.
+1. Select the Menu icon from the upper left, then click **Infrastructure > Classic Infrastructure**.
 1. Choose **Network > Gateway Appliances**.
 1. Click the name of the network gateway that you want to view to access the Gateway Appliance Details page.
 

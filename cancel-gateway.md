@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-08-13"
+  years: 2017, 2024
+lastupdated: "2024-11-08"
 
 keywords: cancel, appliances
 
@@ -21,7 +21,7 @@ You can cancel your gateway appliance at any time by following these instruction
 {: shortdesc}
 
 1. From your browser, open the [IBM Cloud console](/login){: external} and log in to your account.
-2. Select the Menu icon ![Menu icon](../icons/icon_hamburger.svg) from the upper left, then click **Classic Infrastructure**.
+2. Select the Menu icon ![Menu icon](../icons/icon_hamburger.svg) from the upper left, then click **Infrastructure > Classic Infrastructure**.
 3. Choose **Network > Gateway Appliances**.
 4. Click the Gateway Appliance name to open the Gateway Appliance Details page.
 5. From the Hardware section, click the name of the hardware member to open the server details page.
