@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-08-05"
+lastupdated: "2024-11-08"
 
 keywords: manage, associate, disassociate, route, bypass, vlan
 
@@ -35,7 +35,7 @@ VLANs can be associated to only one gateway appliance at a time and must not hav
 To associate a VLAN to a gateway appliance, follow these steps:
 
 1. From your browser, open the [IBM Cloud console](/login){: external} and log in to your account.
-1. Select the Menu icon from the upper left, then click **Classic Infrastructure**.
+1. Select the Menu icon from the upper left, then click **Infrastructure > Classic Infrastructure**.
 1. Choose **Network > Gateway Appliances**.
 1. Click the name of the network gateway that you want to view to access the Gateway Appliance Details page.
 2. Select the VLANs tab, then click the blue **Associate VLAN** button. Select the VLAN that you want to associate with your gateway appliance from the **Associate VLAN** menu.
@@ -51,7 +51,7 @@ Associated VLANs are linked to a gateway appliance, but traffic to or from serve
 To set an associated VLAN to "route through", follow these steps:
 
 1. From your browser, open the [IBM Cloud console](/login){: external} and log in to your account.
-1. Select the Menu icon from the upper left, then click **Classic Infrastructure**.
+1. Select the Menu icon from the upper left, then click **Infrastructure > Classic Infrastructure**.
 1. Choose **Network > Gateway Appliances**.
 1. Click the name of the network gateway that you want to view to access the Gateway Appliance Details page.
 2. Click the **VLANs** tab on the left.
@@ -77,7 +77,7 @@ Bypassing a VLAN does not disassociate the VLAN from the gateway appliance. If t
 To bypass gateway routing for a VLAN, follow these steps:
 
 1. From your browser, open the [IBM Cloud console](/login){: external} and log in to your account.
-1. Select the Menu icon from the upper left, then click **Classic Infrastructure**.
+1. Select the Menu icon from the upper left, then click **Infrastructure > Classic Infrastructure**.
 1. Choose **Network > Gateway Appliances**.
 1. Click the name of the network gateway that you want to view to access the Gateway Appliance Details page.
 2. Click the **VLANs** tab on the left.
@@ -97,7 +97,7 @@ If you need to associate a VLAN to another gateway appliance, or if you don't wa
 To disassociate a VLAN from a gateway appliance, follow these steps:
 
 1. From your browser, open the [IBM Cloud console](/login){: external} and log in to your account.
-1. Select the Menu icon from the upper left, then click **Classic Infrastructure**.
+1. Select the Menu icon from the upper left, then click **Infrastructure >  Classic Infrastructure**.
 1. Choose **Network > Gateway Appliances**.
 1. Click the name of the network gateway that you want to view to access the Gateway Appliance Details page.
 2. Click the **VLANs** tab on the left.
