@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-11-07"
+lastupdated: "2024-11-26"
 
 keywords: contact, troubleshooting
 
@@ -56,3 +56,26 @@ To ensure a timely resolution to your issue, include the following information i
 1. For more complicated issues, a basic explanation of the expected network path of the connection or a network topology diagram is necessary.
 1. Other useful information includes the security policy name that contains the expected allow or block. You can also illustrate that traffic is being allowed or not using `show security match-policies` (tab-complete to finish the rest of the command). In addition, the `show security flow session` command shows the forward and response traffic on the ingress interfaces, as well as if packets are incrementing in one expected direction or not. You can also use `traceoptions` to receive Debug level output for the specified traffic. 
 1. For local sourced and destined traffic, please determine if the `PROTECT-IN` policy contains the proper allow settings, as this is used for control plane policing.
+1. You should also generate RSI and log files. The RSI contains information on the state of the system, and the logs capture historical information that might be present.
+
+   For a standalone device, you would do this ony once per node. For an HA pair, you should capture the RSI and logs for both. To do so, SSH to the gateway IP and login. The following example assumes you are logged into node 1:
+
+   ```ssh
+   cli
+   request support information | save /var/log/rsi-node1
+   file archive compress source /var/log/* destination /var/tmp/node1.tgz
+   ```
+   {: pre}
+   
+   This generates the RSI and logs for node 1. Next, move to the other node:
+
+   ```ssh
+   request routing-engine login node 0
+   cli
+   request support information | save /var/log/rsi-node0
+   file archive compress source /var/log/* destination /var/tmp/node0.tgz
+   file copy /var/tmp/node0.tgz node1:/var/tmp/
+   ```
+   {: pre}
+   
+   The same files are generated on node 0, and the resulting zip file is copied to node 1. You can use SCP or other tools to download thse files from the `/var/tmp` directory.
