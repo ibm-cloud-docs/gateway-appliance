@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-08-28"
+  years: 2017, 2025
+lastupdated: "2025-03-14"
 
 keywords: bypass, bypassing, firewall, rules, enable, enabling
 
@@ -46,6 +46,7 @@ The client (or their managed services provider) is responsible for monitoring th
 | Supervision and technical monitoring of devices (gateways, firewalls, bare metal / virtual servers) | R, A    | C, I | 
 | Supervision and technical monitoring of hardware infrastructure outside of the direct customer environment | C, I    | R, A |
 | Customer hardware and component monitoring                                 | R, A    | C, I |                      
+{: caption="Monitoring" caption-side="top"}
 
 ## MRO (Maintenance, repair, and operations)
 {: #ga-raci-mro}
@@ -60,6 +61,7 @@ The client (or their managed services provider) is responsible for ongoing maint
 | Initial operating system set up and configuration (pre-provision and handoff to client) | C, I    | R, A |                      
 | Hardware maintenance and replacement                                       | C, I, O | R, A |                      
 | Break/fix support                                                        | C, I    | R, A |                      
+{: caption="MRO (Maintenance, repair, and operations)" caption-side="top"}
 
 ## Administration (ongoing device management)
 {: #ga-raci-admin}
@@ -69,13 +71,12 @@ The client (or their managed services provider) is responsible for the ongoing a
 | Activity                                                                 | Client | IBM | 
 |--------------------------------------------------------------------------|--------|-----|
 | Configuration and management of services (post-provision)                 | R, A | C, I | 
-| Configuration and management of firewalls, gateway devices, and underlying hosts (where applicable, post-provision) | R, A | C, I |                     
-| Planning and preparation for change requests on firewall and gateway devices (configuration changes, operating system or firmware updates) | R, A | C, I |                     
-| Perform change requests on firewall and gateway devices (configuration changes, operating system or firmware updates) | R, A | C, I |             
-| Manage IP address assignments (post provision)                           | R, A, O | C, I |                     
+| Configuration and management of firewalls, gateway devices, and underlying hosts (where applicable, post-provision) | R, A | C, I |          | Planning and preparation for change requests on firewall and gateway devices (configuration changes, operating system or firmware updates) | R, A | C, I |                     
+| Perform change requests on firewall and gateway devices (configuration changes, operating system or firmware updates) | R, A | C, I |        | Manage IP address assignments (post provision)                           | R, A, O | C, I |                     
 | Manage VLAN associations (post provision)                                | R, A, O | C, I |                    
 | Configuration and management of IPSEC/GRE tunnels to remote client environment | R, A | C, I |                    
 | Migrations - planning, preparation, implementation - moving from one solution to another | R, A | C, I |                    
+{: caption="Administration (ongoing device management)" caption-side="top"}
 
 ## LCM (Life Cycle Management)
 {: #ga-raci-lcm}
@@ -87,6 +88,7 @@ When a device or operating system reaches its End of Support (EOS) or End of Lif
 | Upgrade an operating system that has reached EOS/EOL                     | R, A, O | C, I |  
 | Upgrade the hardware of a device                                         | R, A, O | C, I |                      
 | Support of devices after EOS/EOL                                         | R, A    |     |                      
+{: caption="LCM (Life Cycle Management)" caption-side="top"}
 
 ## Additional notes and scope of support
 {: #raci-notes}
