@@ -19,7 +19,7 @@ toc:
       - ga-raci.md
       - link:
           label: What are computer networking solutions?
-          href: https://www.ibm.com/topics/networking#toc-computer-n-9C7jokVu
+          href: https://www.ibm.com/think/topics/networking#toc-computer-n-9C7jokVu
       - release-notes.md
       - include: ../fortigate-10g/explore-firewalls.md
   - navgroup:
@@ -41,7 +41,7 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - include: ../cloud-infrastructure/ips.md
+      - include: ../infrastructure-hub/ips.md
   - navgroup:
       id: help
       topics:
