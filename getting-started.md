@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-09-09"
+  years: 2017, 2025
+lastupdated: "2025-04-03"
 
 keywords: order, vsrx, vra, getting started, gateway, appliance
 
@@ -15,7 +15,7 @@ subcollection: gateway-appliance
 # Getting started with IBM Cloud Gateway Appliance
 {: #getting-started-ga}
 
-IBM Cloud Gateway Appliances are devices that give you enhanced control over network traffic, accelerate your network’s performance, and improve your network security. You can manage your physical and virtual networks for routing multiple VLANs, for firewalls, VPN, traffic shaping, and more. 
+IBM Cloud Gateway Appliances are devices that give you enhanced control over network traffic, accelerate your network’s performance, and improve your network security. You can manage your physical and virtual networks for routing multiple VLANs, for firewalls, VPN, traffic shaping, and more.
 {: shortdesc}
 
 ## Before you begin
@@ -36,7 +36,7 @@ To get started, first determine which gateway appliance is right for you. The fo
 |**Manage from API & Portal**|Appliance GUI|Appliance GUI| |Appliance GUI
 |**10Gbps Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
 |**NGFW Add-ons (IPS, AV, WF)**| |![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**Remote Access VPN**||![Checkmark icon](../../icons/checkmark-icon.svg)||![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**Remote Access VPN**| |![Checkmark icon](../../icons/checkmark-icon.svg)| |![Checkmark icon](../../icons/checkmark-icon.svg)|
 {: row-headers}
 {: class="comparison-table"}
 {: caption="A comparison of IBM's gateway appliance offerings" caption-side="bottom"}
