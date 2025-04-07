@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-04-03"
+lastupdated: "2025-04-07"
 
 keywords: order, vsrx, vra, getting started, gateway, appliance
 
@@ -21,7 +21,7 @@ IBM Cloud Gateway Appliances are devices that give you enhanced control over net
 ## Before you begin
 {: #before-you-begin}
 
-To get started, first determine which gateway appliance is right for you. The following table provides a comparison between the appliance options.
+To get started, first determine which gateway appliance is suitable for you. The following table provides a comparison between the appliance options.
 
 
 |        | [Virtual Router Appliance](/docs/virtual-router-appliance) | [Juniper vSRX](/docs/vsrx) |[Bring your own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa) | [Virtual FortiGate Security Appliance](/docs/vfsa?topic=vfsa-getting-started)
