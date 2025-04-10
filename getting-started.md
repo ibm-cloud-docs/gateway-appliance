@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-04-07"
+lastupdated: "2025-04-10"
 
 keywords: order, vsrx, vra, getting started, gateway, appliance
 
@@ -24,7 +24,7 @@ IBM Cloud Gateway Appliances are devices that give you enhanced control over net
 To get started, first determine which gateway appliance is suitable for you. The following table provides a comparison between the appliance options.
 
 
-|        | [Virtual Router Appliance](/docs/virtual-router-appliance) | [Juniper vSRX](/docs/vsrx) |[Bring your own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa) | [Virtual FortiGate Security Appliance](/docs/vfsa?topic=vfsa-getting-started)
+|        | [Virtual Router Appliance](/docs/virtual-router-appliance) | [Juniper vSRX](/docs/vsrx) |[Bring your own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa) | [Virtual FortiGate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa)
 | ------- | :------: | :------: | :------: | :------: |
 |**Operating System**|Vyatta OS|Juniper vSRX|Any|FortiOS|
 |**IBM Cloud Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)| Limited |![Checkmark icon](../../icons/checkmark-icon.svg)|
@@ -48,6 +48,6 @@ To get started, first determine which gateway appliance is suitable for you. The
 To get started with Gateway Appliance, click the following link for the device you've chosen:
 
 - [Getting started with IBM Cloud Virtual Router Appliance](/docs/virtual-router-appliance?topic=virtual-router-appliance-getting-started-vra)
-- [Getting started with IBM Cloud Juniper vSRX Standard](/docs/vsrx?topic=vsrx-getting-started)
-- [Getting started with IBM Cloud Virtual FortiGate Security Appliance](/docs/vfsa?topic=vfsa-getting-started)
+- [Getting started with IBM Cloud Juniper vSRX Standard](/docs/vsrx?topic=vsrx-getting-started-vsrx)
+- [Getting started with IBM Cloud Virtual FortiGate Security Appliance](/docs/vfsa?topic=vfsa-getting-started-vfsa)
 - [Order a Bring Your Own Appliance](/docs/gateway-appliance?topic=gateway-appliance-order-byoa)
