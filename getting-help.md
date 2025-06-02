@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2025
-lastupdated: "2025-05-30"
+lastupdated: "2025-06-02"
 
 keywords: contact, troubleshooting
 
@@ -23,8 +23,9 @@ If you experience an issue or have questions when using {{site.data.keyword.clou
 * Review the FAQs for [VRA](/docs/gateway-appliance?topic=gateway-appliance-faqs-for-ibm-virtual-router-appliance) in the product documentation.
 * Review [vSRX known limitations](/docs/gateway-appliance?topic=gateway-appliance-known-limitations-for-ibm-cloud-juniper-vsrx).
 * Check the status of the {{site.data.keyword.Bluemix_notm}} platform and resources by going to the [Status page](https://cloud.ibm.com/status){: external}.
+* Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `Gateway appliences`, so that it's seen by the {{site.data.keyword.Bluemix_notm}} development teams.
 
-If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-open-case&interface=ui).
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-open-case). And if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
 
 ## Providing support case details for vFSA
 {: #support-case-details-vfsa}
