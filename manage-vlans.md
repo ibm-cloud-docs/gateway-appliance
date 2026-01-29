@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-01-28"
+lastupdated: "2026-01-29"
 
 keywords: manage, associate, disassociate, route, bypass, vlan
 
@@ -92,7 +92,7 @@ After bypassing the network gateway, all server traffic egressing and ingressing
 ## Disassociating a VLAN from a gateway appliance
 {: #disassociate-a-vlan-from-a-gateway-appliance}
 
-If you need to associate a VLAN to another gateway appliance, or if you don't want the VLAN associated to its current gateway appliance, you can disassociate it. Disassociation removes the reservation that the gateway appliance has on the VLAN, allowing it to be associated to another gateway appliance or firewall. If the VLAN is set to "route through", then the VLAN will also be functionally set to "route around" while being disassociated.
+If you need to associate a VLAN to another gateway appliance, or if you don't want the VLAN associated to its current gateway appliance, you can disassociate it. Disassociation removes the reservation that the gateway appliance has on the VLAN, allowing it to be associated to another gateway appliance or firewall. If the VLAN is set to "route through", then the VLAN is also functionally set to "route around" while being disassociated.
 
 To disassociate a VLAN from a gateway appliance, follow these steps:
 
