@@ -32,10 +32,10 @@ To get started, first determine which gateway appliance is suitable for you. The
 |**Multi-VLAN Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
 |**NAT Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|![Checkmark icon](../../icons/checkmark-icon.svg)|
 |**HA Option**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**Manage from API & Portal**|Appliance GUI|Appliance GUI|-|Appliance GUI|
+|**Manage from API & Portal**|Appliance GUI|Appliance GUI|—|Appliance GUI|
 |**10 Gbps Support**|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**NGFW Add-ons (IPS, AV, WF)**|-|![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|![Checkmark icon](../../icons/checkmark-icon.svg)|
-|**Remote Access VPN**|-|![Checkmark icon](../../icons/checkmark-icon.svg)|-|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**NGFW Add-ons (IPS, AV, WF)**|—|![Checkmark icon](../../icons/checkmark-icon.svg)|Appliance dependent|![Checkmark icon](../../icons/checkmark-icon.svg)|
+|**Remote Access VPN**|—|![Checkmark icon](../../icons/checkmark-icon.svg)|—|![Checkmark icon](../../icons/checkmark-icon.svg)|
 {: row-headers}
 {: class="comparison-table"}
 {: caption="A comparison of IBM's gateway appliance offerings" caption-side="bottom"}
