@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-01-29"
+lastupdated: "2026-03-20"
 
 keywords: manage, associate, disassociate, route, bypass, vlan
 
@@ -22,7 +22,7 @@ While the "associate" and "disassociate" actions are administrative in nature an
 
 You can perform these actions from the [Gateway Appliance Details page](/docs/gateway-appliance?topic=gateway-appliance-viewing-gateway-appliance-details) by selecting the **VLANs** tab.
 
-Before you set a VLAN to "route through" on a gateway appliance, make sure that the VLAN and subnet gateways of the subnets that are assigned to the VLAN are configured properly on the gateway appliance itself. Also, make sure to allow proper traffic flow by using firewall rules or security policies. If you don't configure the VLANs, subnet gateways, and firewall rules or security policies properly before you set the VLAN to "route through", the traffic is routed to your gateway appliance and might cause outages to your servers or services on that VLAN. For Juniper vSRX, refer to [Creating the new interface, zone, and address book subnet](/docs/vsrx?topic=vsrx-creating-the-new-interface-zone-and-address-book-subnet), and for Vyatta Virtual Router Appliance, refer to [Configuring your VLANs](/docs/virtual-router-appliance?topic=virtual-router-appliance-routing-your-vlans).
+Before you set a VLAN to "route through" on a gateway appliance, make sure that the VLAN and subnet gateways of the subnets that are assigned to the VLAN are configured properly on the gateway appliance itself. Also, make sure to allow proper traffic flow by using firewall rules or security policies. If you don't configure the VLANs, subnet gateways, and firewall rules or security policies properly before you set the VLAN to "route through", the traffic is routed to your gateway appliance and might cause outages to your servers or services on that VLAN. For Juniper vSRX, see [Creating the new interface, zone, and address book subnet](/docs/vsrx?topic=vsrx-creating-the-new-interface-zone-and-address-book-subnet), for Vyatta Virtual Router Appliance, see [Configuring your VLANs](/docs/virtual-router-appliance?topic=virtual-router-appliance-routing-your-vlans), and for vFSA, see [Configuring your VLAN interfaces and subnets](/docs/vfsa?topic=vfsa-configure-vlan-subnets).
 {: tip}
 
 ## Associating a VLAN to a gateway appliance
