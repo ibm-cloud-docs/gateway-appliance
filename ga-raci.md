@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-01-28"
+lastupdated: "2026-04-13"
 
 keywords: bypass, bypassing, firewall, rules, enable, enabling
 
@@ -51,7 +51,8 @@ The client (or their managed services provider) is responsible for monitoring th
 ## MRO (Maintenance, repair, and operations)
 {: #ga-raci-mro}
 
-The client (or their managed services provider) is responsible for ongoing maintenance and operation of their devices. The client team provides all relevant details regarding initial troubleshooting that has been completed and might request additional assistance by using a [support ticket](/docs/gateway-appliance?topic=gateway-appliance-getting-help), live chat, or phone call to IBM Cloud technical support.
+The client (or their managed services provider) is responsible for ongoing maintenance and operation of their devices including firmware and operating system upgrades (for example, VyOS and Juniper).
+The client team provides all relevant details regarding initial troubleshooting that has been completed and might request additional assistance by using a [support ticket](/docs/gateway-appliance?topic=gateway-appliance-getting-help), live chat, or phone call to IBM Cloud technical support.
 
 | Activity | Client | IBM |
 | -------- | ------ | --- |
