@@ -33,17 +33,17 @@
     "view_more": "/docs/overview?topic=overview-whatsnew",
     "tiles": [
       {
-          "date": "March 2024",
-          "title": "Virtual FortiGate Security Appliance (vFSA)"
-        },
-        {
-          "date": "April 2020",
-          "title": "Checking vSRX readiness"
-        },
-        {
-          "date": "August 2018",
-          "title": "Brocade operating system version 18.x"
-        }
+        "date": "March 2024",
+        "title": "Virtual FortiGate Security Appliance (vFSA)"
+      },
+      {
+        "date": "April 2020",
+        "title": "Checking vSRX readiness"
+      },
+      {
+        "date": "August 2018",
+        "title": "Brocade operating system version 18.x"
+      }
     ]
   }
 }
