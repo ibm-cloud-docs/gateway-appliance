@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-09-02"
+lastupdated: "2026-11-03"
 
 keywords: contact, troubleshooting
 
@@ -18,6 +18,7 @@ subcollection: gateway-appliance
 If you experience an issue or have questions when using {{site.data.keyword.cloud_notm}} Gateway Appliances (vFSA, VRA, or vSRX), you can use the following resources before you open a support case.
 {: shortdesc}
 
+* Troubleshoot with {{site.data.keyword.paver_full}}{: external}. {{site.data.keyword.paver}} is an embedded AI operator that understands your account context, creates a resolution plan, and executes changes on your behalf, while always requiring your approval before touching your live environment.
 * Ask a question in the [AI assistant](/docs/overview?topic=overview-ask-ai-assistant) from the console or the {{site.data.keyword.cloud_notm}} CLI.
 * Review [vFSA known limitations](/docs/vfsa?topic=vfsa-known-limitations-for-ibm-cloud-vfsa)
 * Review the FAQs for [VRA](/docs/gateway-appliance?topic=gateway-appliance-faqs-for-ibm-virtual-router-appliance) in the product documentation.
