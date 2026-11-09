@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-04-13"
+lastupdated: "2026-11-09"
 
 keywords: bypass, bypassing, firewall, rules, enable, enabling
 
@@ -50,13 +50,14 @@ The client (or their managed services provider) is responsible for monitoring th
 
 ## MRO (Maintenance, repair, and operations)
 {: #ga-raci-mro}
-
-The client (or their managed services provider) is responsible for ongoing maintenance and operation of their devices including firmware and operating system upgrades (for example, VyOS and Juniper).
+The client (or their managed services provider) is responsible for ongoing maintenance and operation of their devices including firmware and operating system upgrades (for example, VyOS and Juniper). [Begin change]{: tag-green} This includes monitoring security advisories from the device vendor and applying security patches and updates in a timely manner. For the IBM Cloud Virtual FortiGate Security Appliance (vFSA), IBM Cloud sends notifications about critical Fortinet security issues, but you remain responsible for monitoring vendor advisories and for applying patches. IBM Cloud does not apply patches to customer devices. [End change]{: tag-green}
 The client team provides all relevant details regarding initial troubleshooting that has been completed and might request additional assistance by using a [support ticket](/docs/gateway-appliance?topic=gateway-appliance-getting-help), live chat, or phone call to IBM Cloud technical support.
 
 | Activity | Client | IBM |
 | -------- | ------ | --- |
 | General maintenance of devices in customer infrastructure | R, A | C, I |
+| [Begin change]{: tag-green} Monitor vendor security advisories and assess vulnerabilities that affect devices and underlying operating systems | R, A | C, I |
+| Apply firmware, operating system, and security patches to devices and underlying hosts [End change]{: tag-green} | R, A | C, I |
 | Disaster recovery and high availability testing | R, A | C, I |
 | Regularly scheduled device backups | R, A | C, I |
 | Initial operating system setup and configuration (pre-provision and handoff to client) | C, I | R, A |
@@ -72,8 +73,10 @@ The client (or their managed services provider) is responsible for the ongoing a
 | Activity | Client | IBM |
 | -------- | ------ | --- |
 | Configuration and management of services (post-provision) | R, A | C, I |
-| Configuration and management of firewalls, gateway devices, and underlying hosts (where applicable, post-provision) | R, A | C, I | | Planning and preparation for change requests on firewall and gateway devices (configuration changes, operating system or firmware updates) | R, A | C, I |
-| Perform change requests on firewall and gateway devices (configuration changes, operating system or firmware updates) | R, A | C, I | | Manage IP address assignments (post provision) | R, A, O | C, I |
+| Configuration and management of firewalls, gateway devices, and underlying hosts (where applicable, post-provision) | R, A | C, I |
+| Planning and preparation for change requests on firewall and gateway devices (configuration changes, operating system or firmware updates) | R, A | C, I |
+| Perform change requests on firewall and gateway devices (configuration changes, operating system or firmware updates) | R, A | C, I |
+| Manage IP address assignments (post provision) | R, A, O | C, I |
 | Manage VLAN associations (post provision) | R, A, O | C, I |
 | Configuration and management of IPSec/GRE tunnels to remote client environment | R, A | C, I |
 | Migrations - planning, preparation, implementation - moving from one solution to another | R, A | C, I |
