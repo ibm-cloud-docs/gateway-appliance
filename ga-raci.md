@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2026
-lastupdated: "2026-11-09"
+lastupdated: "2026-11-10"
 
 keywords: bypass, bypassing, firewall, rules, enable, enabling
 
@@ -39,7 +39,7 @@ Order (O)
 ## Monitoring
 {: #ga-raci-monitoring}
 
-The client (or their managed services provider) is responsible for monitoring the performance, connectivity, and hardware of their devices. IBM Cloud does not monitor individual customer devices, their configurations, or network status or assignments. Should issues arise, you can open a [support ticket](/docs/gateway-appliance?topic=gateway-appliance-getting-help) to schedule hardware replacement.
+The client (or their managed services provider) is responsible for monitoring the performance, connectivity, and hardware of their devices. IBM Cloud does not monitor individual customer devices, their configurations, or network status or assignments. Should issues arise, you can open a [support case](/docs/gateway-appliance?topic=gateway-appliance-getting-help) to schedule hardware replacement.
 
 | Activity | Client | IBM |
 | -------- | ------ | --- |
@@ -51,7 +51,7 @@ The client (or their managed services provider) is responsible for monitoring th
 ## MRO (Maintenance, repair, and operations)
 {: #ga-raci-mro}
 The client (or their managed services provider) is responsible for ongoing maintenance and operation of their devices including firmware and operating system upgrades (for example, VyOS and Juniper). [Begin change]{: tag-green} This includes monitoring security advisories from the device vendor and applying security patches and updates in a timely manner. For the IBM Cloud Virtual FortiGate Security Appliance (vFSA), IBM Cloud sends notifications about critical Fortinet security issues, but you remain responsible for monitoring vendor advisories and for applying patches. IBM Cloud does not apply patches to customer devices. [End change]{: tag-green}
-The client team provides all relevant details regarding initial troubleshooting that has been completed and might request additional assistance by using a [support ticket](/docs/gateway-appliance?topic=gateway-appliance-getting-help), live chat, or phone call to IBM Cloud technical support.
+The client team provides all relevant details regarding initial troubleshooting that has been completed and might request additional assistance by using a [support case](/docs/gateway-appliance?topic=gateway-appliance-getting-help), live chat, or phone call to IBM Cloud technical support.
 
 | Activity | Client | IBM |
 | -------- | ------ | --- |
@@ -97,4 +97,4 @@ When a device or operating system reaches its End of Support (EOS) or End of Lif
 ## Additional notes and scope of support
 {: #raci-notes}
 
-For Consulting (C) and Informing (I), IBM Cloud technical support occurs through [support tickets](/docs/gateway-appliance?topic=gateway-appliance-getting-help), live chats, or phone calls. It is expected that the client (or their managed services provider) provides technical resources with a strong understanding of the environment to aid with troubleshooting issues. IBM Cloud technical support is available to augment the client's own technical team and provide guidance and support as needed, bringing in any relevant internal team or vendor for additional assistance if warranted. Any break/fix support provided by IBM Cloud technical support (beyond restoring a device to its original working configuration) is done on a "best effort" basis.
+For Consulting (C) and Informing (I), IBM Cloud technical support occurs through [support cases](/docs/gateway-appliance?topic=gateway-appliance-getting-help), live chats, or phone calls. It is expected that the client (or their managed services provider) provides technical resources with a strong understanding of the environment to aid with troubleshooting issues. IBM Cloud technical support is available to augment the client's own technical team and provide guidance and support as needed, bringing in any relevant internal team or vendor for additional assistance if warranted. Any break/fix support provided by IBM Cloud technical support (beyond restoring a device to its original working configuration) is done on a "best effort" basis.
